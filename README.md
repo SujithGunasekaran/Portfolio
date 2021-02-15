@@ -1,4 +1,4 @@
-<h1 align="center">🔥 Portfolio 🔥</h1>
+<h1 align="center"> Portfolio 📋</h1>
   
 <h3 align="center">A Responsive and 100% customizable portfolio</h3>
 <br/>
