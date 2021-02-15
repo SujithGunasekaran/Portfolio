@@ -1,6 +1,6 @@
 <h1 align="center"> Portfolio 📋</h1>
   
-<h3 align="center">A Responsive and 100% customizable portfolio</h3>
+<h3 align="center">A Responsive Portfolio</h3>
 <br/>
 
 # Technology Used 🛠
