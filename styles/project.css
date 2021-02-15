@@ -1,0 +1,207 @@
+.project-container
+{
+    margin : 85px 0px 30px 0px;
+    width : 100%;
+}
+.project-heading
+{
+    border-top: 2px solid #343a42;
+    border-bottom: 2px solid #343a42;
+    box-shadow: inherit;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #191c20;
+    padding : 40px 15px;
+    color : white;
+    word-spacing: 1.5px;
+    font-size: 1.988rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Project card container */
+
+.project-card-container
+{
+    margin : 25px 0px;
+}
+.project-card
+{
+    margin-top: 20px;
+    padding : 30px 15px;
+    /* background-color: #282b30; */
+    background-color: #202124;
+    height : 95%;
+    border-radius: 0.25rem;
+    box-shadow: 10px 10px 20px rgba(12, 12, 12, 0.16), 10px 10px 20px rgba(12, 12, 12, 0.23);
+}
+.project-card:hover
+{
+    background-color: #26272b;
+}
+.project-card-title
+{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.55rem;
+    line-height: 2.275rem;
+    letter-spacing: 0.115rem;
+    text-transform: uppercase;
+    color : white;
+    transition: 0.5s all ease-in-out;
+}
+.project-card-heading-line
+{
+    margin-top: 5px;
+    margin-left: 2px;
+    border : 2px solid #61dafb;
+    width : 70px;
+}
+.project-card-description
+{
+    padding : 20px 6px 5px 6px;
+    color : #dce0e7;
+    font-size: 0.790rem;
+    line-height: 1.988rem;
+    letter-spacing: 0.040rem;
+    font-weight: 400;
+    word-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s all ease-in-out;
+}
+.project-card-tech-stack
+{
+    padding : 20px 6px 10px 6px;
+    color : #dce0e7;
+    font-size: 0.850rem;
+    line-height: 1.988rem;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+    word-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s all ease-in-out;
+}
+.project-card-tech-stack-language
+{
+    display: inline-block;
+    word-spacing: 2px;
+    color : #82d5ec;
+}
+.project-card-source-code-btn
+{
+    margin : 35px 6px 15px 6px;
+    border: none;
+    bottom : 25px;
+    width : 97%;
+    padding : 14px 10px;
+    border-radius: 6px;
+    background-color: #333941;
+    color : white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.050rem;
+    box-shadow: 0 8px 8px -8px rgba(0,0,0,.78);
+}
+.project-card-source-code-btn:focus
+{
+    outline : none;
+}
+.project-card-source-code-icon
+{
+    margin-top: -3px;
+    margin-left: 10px !important;
+    font-size: 20px !important;
+}
+.project-card-website-link
+{
+    margin : 15px 6px 5px 6px;
+    border: 1px solid #525353;
+    width : 97%;
+    padding : 12px 10px;
+    border-radius: 6px;
+    /* background-color: #525353; */
+    background-color: #202124;
+    color : white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.820rem;
+    font-weight: 400;
+    letter-spacing: 0.080rem;
+    transition: 0.5s all ease-in-out;
+}
+.project-card-website-link:hover
+{
+    box-shadow: 0 8px 8px -8px rgba(0,0,0,.78);
+        background-color: #525353;
+}
+.project-card-website-link a
+{
+    display: inline-block;
+    color : whitesmoke;
+    text-decoration: none;
+}
+.project-card-website-link:focus
+{
+    outline : none;
+}
+.project-card-more-website-btn
+{
+    margin : 45px 6px 15px 6px;
+    border: 1px solid #007ced;
+    width : 97%;
+    padding : 12px 10px;
+    border-radius: 6px;
+    background-color: #0d1117;
+    color : white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.050rem;
+    transition: 0.5s all ease-in-out;
+    box-shadow: 0 8px 8px -8px rgba(0,0,0,.78);
+} 
+.project-card-more-website-btn:hover
+{
+    border: 1px solid #007ced;
+    background-color: #007ced;
+    color : white;
+    cursor: pointer;
+}
+.project-card-more-website-btb:focus
+{
+    outline: none;
+}
+.project-card-more-website-btn a
+{
+    display: inline-block;
+    color : white;
+    text-decoration: none;
+}
+.project-skill-head-resume
+{
+    margin-top: 40px;
+    letter-spacing: 0.4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color : white;
+    font-weight: 600;
+}
+.project-skill-head-subheading
+{
+    padding : 30px 0px;
+    letter-spacing: 0.020rem;
+    word-spacing: 1.3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.900rem;
+    color : #b8c3d3;
+    line-height: 220%;
+    font-weight: 500;
+}
+
+@media(max-width:370px){
+    .project-card-title{font-size: 1.5rem;}
+    .project-card{padding:30px 8px}
+}

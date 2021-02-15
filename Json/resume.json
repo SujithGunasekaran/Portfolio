@@ -1,0 +1,87 @@
+{
+    "Education": [
+        {
+            "EducationHeading": "Education",
+            "EducationInformation": [
+                {
+                    "EducationYear": "2020",
+                    "EducationType": "College",
+                    "EducationDetails": [
+                        {
+                            "InstituteName": "Bannari Amman Institute Of Technology",
+                            "InstituteCourse": "B.Tech Information Technology",
+                            "InstituteMark": "Cgpa : 7.5"
+                        }
+                    ]
+                },
+                {
+                    "EducationYear": "2016",
+                    "EducationType": "Higher Secondary",
+                    "EducationDetails": [
+                        {
+                            "InstituteName": "Srv Matriculation HR.secondary School",
+                            "InstituteCourse": "Cs / Maths",
+                            "InstituteMark": "Mark : 84.4%"
+                        }
+                    ]
+                },
+                {
+                    "EducationYear": "2014",
+                    "EducationType": "Secondary School",
+                    "EducationDetails": [
+                        {
+                            "InstituteName": "Chinmaya Vidyalaya Matric School",
+                            "InstituteCourse": "StateBoard",
+                            "InstituteMark": "Mark : 86%"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Experience": [
+        {
+            "Heading": "Work Experience",
+            "WorkDetails": [
+                {
+                    "WorkingYear": "2020 - Present",
+                    "WorkType": "Associate Software Engineer",
+                    "WorkOfficeName": "Solartis Technology PVT",
+                    "WorkDescription": "Saas Enabler : This is a platform tool to automate UI Development which highly reduced developer's process. As part of Development team responsible for creating reusable component and fixed bugs in both front end and back end. TECH STACk : React.js with Redux, Express.js, Mysql"
+                }
+            ]
+        }
+    ],
+    "CodingSkills": [
+        {
+            "Heading": "Tech Stacks and Tools",
+            "HeadingDescription": "Programming languages and tools that I know and usually used when making a project.",
+            "CodingInformation": [
+                {
+                    "LanguageName": "HTML, CSS",
+                    "LangiageKnowInPercentage": "88%"
+                },
+                {
+                    "LanguageName": "Javascript",
+                    "LangiageKnowInPercentage": "75%"
+                },
+                {
+                    "LanguageName": "React.js",
+                    "LangiageKnowInPercentage": "75%"
+                },
+                {
+                    "LanguageName": "Express.js",
+                    "LangiageKnowInPercentage": "60%"
+                },
+                {
+                    "LanguageName": "Node js",
+                    "LangiageKnowInPercentage": "60%"
+                },
+                {
+                    "LanguageName": "SQL",
+                    "LangiageKnowInPercentage": "55%"
+                }
+            ]
+        }
+    ]
+}

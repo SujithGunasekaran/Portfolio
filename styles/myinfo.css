@@ -1,0 +1,123 @@
+.myinfo-main
+{
+    width: 100%;
+    padding : 150px 10px 100px 10px;
+}
+.myinfo-letter-container
+{
+    padding-top: 10px;
+    width : 100%;
+}
+.myinfo-letter-heading
+{
+    color : rgb(234, 237, 238);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.175rem;
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 1px;
+    transition: 0.5s all ease-in-out;
+}
+.myinfo-line
+{
+    margin : 10px auto;
+    border-top: 4px solid #61dafb;
+    width : 130px;
+    height : 8px;
+}
+.myinfo-letter-coding
+{
+    padding: 15px 0px;
+    color : rgb(215, 218, 219);
+    font-size: 15px;
+    font-style: italic;
+    word-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s all ease-in-out;
+}
+.myinfo-letter-about
+{
+    padding: 15px 0px 25px 0px;
+    color : #dce0e7;
+    font-size: 0.950rem;
+    line-height: 1.988rem;
+    letter-spacing: 0.040rem;
+    font-weight: 400;
+    word-spacing: 1px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s all ease-in-out;
+} 
+.myinfo-my-image
+{
+    width : 100%;
+}
+
+.myinfo-font-icon-display
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myinfo-font-icon
+{
+    width: 45px;
+    height : 45px;
+    padding-top: 8px;
+    text-align: center;
+    margin-right: 15px;
+    color : white;
+    border-radius: 50%;
+    font-size: 1.7rem;
+}
+.myinfo-resume-btn-display
+{
+    display: flex;
+    justify-content: center;
+    margin : 45px 0px 0px 0px;
+}
+.myinfo-resume-btn
+{
+    border: 1px solid #007ced;
+    width : 100%;
+    padding : 12px 10px;
+    border-radius: 6px;
+    background-color: #0d1117;
+    color : white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.060rem;
+    box-shadow: 0 8px 8px -8px rgba(0,0,0,.78);
+    transition: 0.5s all ease-in-out;
+}
+.myinfo-resume-btn a
+{
+    display: inline-block;
+    color : white;
+    text-decoration: none;
+}
+.myinfo-resume-btn:hover
+{
+    border: 1px solid #007ced;
+    background-color: #007ced;
+    color : white;
+    cursor: pointer;
+}
+.myinfo-resume-btn:focus
+{
+    outline : none;
+}
+@media(max-width:370px){
+    .myinfo-letter-heading{font-size: 2rem;}
+}
+@media(max-width:780px){
+    .myinfo-my-image{display: none;}
+    .myinfo-letter-heading{text-align: left;}
+    .myinfo-line{margin: 10px 0px;}
+    .myinfo-letter-about{text-align: left;}
+    .myinfo-font-icon-display{justify-content: left;}
+    .myinfo-main{padding-top : 100px; width: 100%; padding-bottom: 20px;padding-left: 0px;padding-right: 0px;margin-top: -3px;}
+}

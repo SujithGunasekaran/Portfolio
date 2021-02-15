@@ -1,0 +1,42 @@
+.footer-main
+{
+    padding : 5px 20px 20px 20px;
+    margin-top: -2px;
+    transition: 0.5s all ease-in-out;
+}
+.footer-icon-display
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-icon
+{
+    margin-right: 25px;
+    font-size: 55px !important;
+    transform: scale(0.5);
+    transition: 0.5s all ease-in-out !important;
+}
+.footer-icon:hover
+{
+    color: #61dafb !important;
+    cursor: pointer;
+    transform: scale(0.5) translateY(-15px);
+}
+.footer-copyright
+{
+    text-align: center;
+    padding : 25px 0px 10px 0px;
+    color: #b4b3b3;
+    font-size: 1rem;
+    letter-spacing: 0.040rem;
+    word-spacing: 1px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s all ease-in-out;
+}
+
+
+@media(max-width:700px){
+    .footer-main{padding-top : 20px;padding-bottom: 20px;padding-left: 0px;padding-right: 0px;margin-top: -3px;}
+}
