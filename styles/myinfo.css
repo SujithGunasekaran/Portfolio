@@ -40,14 +40,14 @@
 {
     padding: 15px 0px 25px 0px;
     color : #dce0e7;
-    font-size: 0.950rem;
+    font-size: 1rem;
     line-height: 1.988rem;
-    letter-spacing: 0.040rem;
+    letter-spacing: 0.060rem;
     font-weight: 400;
     word-spacing: 1px;
     text-align: center;
     width: 100%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     transition: 0.5s all ease-in-out;
 } 
 .myinfo-my-image

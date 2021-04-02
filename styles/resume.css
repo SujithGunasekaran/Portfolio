@@ -41,7 +41,7 @@
 {
     margin-top: 40px;
     letter-spacing: 0.4px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
     color : white;
     line-height: 2.1rem;
@@ -82,32 +82,33 @@
 {
     padding-top: 3.4px;
     padding-left: 15px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Inter', sans-serif;
     color : #9198a3;
     font-weight: 600;
     font-size: 14px;
+    letter-spacing: 0.035rem;
 }
 .education-clg-name-resume
 {
     padding-top: 20px;
     padding-left: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1.010rem;
     word-spacing: 1px;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.050rem;
     color : white;
-    font-weight: 500;
+    font-weight: 400;
 }
 .education-clg-degeree-resume
 {
     padding-top: 14px;
     padding-left: 30px;  
-    font-family: 'Montserrat', sans-serif;  
-    font-size: 0.780rem;
-    letter-spacing: 0.5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.920rem;
+    letter-spacing: 0.030rem;
     word-spacing: 1px;
-    line-height: 1.555rem;
-    font-weight: 500;
+    line-height: 1.855rem;
+    font-weight: 300;
     color : #b8c3d3;
 }
 .education-clg-mark-resume
@@ -143,7 +144,7 @@
 {
     margin-top: 70px;
     letter-spacing: 0.4px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
     color : white;
     font-weight: 600;
@@ -151,13 +152,13 @@
 .coding-skill-head-subheading
 {
     padding : 30px 0px;
-    letter-spacing: 0.4px;
-    word-spacing: 1.3px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.900rem;
+    letter-spacing: 0.040rem;
+    word-spacing: 0.040rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.950rem;
     color : #b8c3d3;
     line-height: 200%;
-    font-weight: 500;
+    font-weight: 300;
 }
 .coding-skill-container
 {
@@ -184,12 +185,12 @@
 .coding-skill-name
 {
     padding-top : 25px;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.040rem;
     word-spacing: 1.3px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 0.900rem;
     color : #b8c3d3;
-    font-weight: 500;
+    font-weight: 400;
 }
 @media(max-width:370px){
     .education-year-btn{padding : 1px 7px}

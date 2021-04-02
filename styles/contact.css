@@ -34,11 +34,11 @@
 .contact-detail-info-heading
 {
     letter-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1.3rem;
     color : white;
     line-height: 2.1rem;
-    letter-spacing: 0.050rem;
+    letter-spacing: 0.070rem;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -55,10 +55,10 @@
     color : #dce0e7;
     font-size: 0.950rem;
     line-height: 1.988rem;
-    letter-spacing: 0.040rem;
-    font-weight: 400;
+    letter-spacing: 0.060rem;
+    font-weight: 300;
     word-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     transition: 0.5s all ease-in-out;
 }
 .contact-detail-info-display

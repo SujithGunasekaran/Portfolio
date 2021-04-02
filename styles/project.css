@@ -17,7 +17,7 @@
     font-size: 1.988rem;
     font-weight: 600;
     letter-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     text-transform: uppercase;
 }
 
@@ -64,12 +64,12 @@
 {
     padding : 20px 6px 5px 6px;
     color : #dce0e7;
-    font-size: 0.790rem;
-    line-height: 1.988rem;
-    letter-spacing: 0.040rem;
-    font-weight: 400;
+    font-size: 0.850rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.050rem;
+    font-weight: 300;
     word-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     transition: 0.5s all ease-in-out;
 }
 .project-card-tech-stack
@@ -78,10 +78,10 @@
     color : #dce0e7;
     font-size: 0.850rem;
     line-height: 1.988rem;
-    letter-spacing: 0.3px;
-    font-weight: 500;
+    letter-spacing: 0.040rem;
+    font-weight: 400;
     word-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     transition: 0.5s all ease-in-out;
 }
 .project-card-tech-stack-language
@@ -192,13 +192,13 @@
 .project-skill-head-subheading
 {
     padding : 30px 0px;
-    letter-spacing: 0.020rem;
-    word-spacing: 1.3px;
-    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.040rem;
+    word-spacing: 0.040rem;
+    font-family: 'Inter', sans-serif;
     font-size: 0.900rem;
     color : #b8c3d3;
     line-height: 220%;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 @media(max-width:370px){
