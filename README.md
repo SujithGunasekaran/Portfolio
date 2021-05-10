@@ -1,9 +1,12 @@
-<h1 align="center"> Portfolio 📋</h1>
+<h1> Portfolio</h1>
   
-<h3 align="center">A Responsive Portfolio</h3>
-<br/>
+<h3>A Responsive Portfolio</h3>
 
-# Technology Used 🛠
+<h3>If you would have like to know more about me Checkout my website</h3>
+
+<link>https://sujithgunasekaran.vercel.app/</link>
+
+# Technology Used 📋
 
 1. Javascript
 2. next.js
