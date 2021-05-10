@@ -71,7 +71,7 @@ export const myInfo = {
     },
     Home: {
         myName: "Sujith Gunasekaran",
-        myInfo: "Software Engineer with 1 year of experience in Web Development in various Technologies. A passionate individual who always thrive to work on end to end products. I love learning new Technologies, I want to contribute to great team. Currently I am working as a Front-end Developer.",
+        myInfo: "I build things for web. I am a software engineer who specializes in building a responsive website. I love learning new Technologies, I want to contribute to great team.",
         myImage: "/assert/Home_my_image.svg",
         mySocialIcon: [
             {
@@ -99,7 +99,33 @@ export const myInfo = {
             myResumeName: "View Resume",
             myResumeLink: "/resume/my Resume.pdf"
         },
-        myActivityHeading: "What I Do ?",
+        myActivityHeading: "About Me",
+        myActivityInfoOne: "Hello! My name is Sujith Gunasekaran. I am interested in web development started back in 2020 when I decided to try to clone youtube — turns out to learn new technologies continuously.",
+        myActivityInfoTwo: "Fast-forward to today, and I've had the privilege of building a projects. My main focus these days is building accessible, inclusive products. Building a responsive website front end using React-Redux",
+        myActivityInfoThree: "Here are a few technologies I've been working with recently:",
+        myActivityTechInfo: [
+            {
+                techName: "Javascript"
+            },
+            {
+                techName: "React.js"
+            },
+            {
+                techName: "Next.js"
+            },
+            {
+                techName: "Express.js"
+            },
+            {
+                techName: "Node.js"
+            },
+            {
+                techName: "HTML, Css"
+            },
+            {
+                techName: "mongodb"
+            }
+        ],
         myActivity: [
             {
                 ActivityHeading: "Full Stack Development",
@@ -146,6 +172,7 @@ export const myInfo = {
         ]
     },
     Education: {
+        EducationTitle: "Education and Work Experience",
         EducationHeading: "Education",
         EducationSubHeading: "Basic Qualification and Certificate",
         EducationImage: "/assert/Education_cap.svg",
@@ -196,23 +223,26 @@ export const myInfo = {
         ProjectImage: "/assert/Project_home.svg",
         ProjectList: [
             {
-                ProjectName: "Warehouse",
-                ProjectDescription: "E-Commerce website, Products are listed. By creating account user can store product in cart, To store data I have used mongodb",
-                ProjectLanguage: "Javascript, React.js, Express.js, Node.js, Mongodb",
-                ProjectLink: "https://yourwarehouse.herokuapp.com",
+                ProjectName: "HouseChat",
+                ProjectDescription: "Free Knowledge sharing platform, Community platform to find and contribute answer to the technical challenges.",
+                ProjectLanguage: "Next.js, graphql, Apollo, mongodb, React.js, Express.js",
+                ProjectGitLink: "https://github.com/SujithGunasekaran",
+                ProjectLink: "https://housechat.herokuapp.com/",
                 ProjectLinkBtnDisplayName: "View Website"
             },
             {
-                ProjectName: "My Task Manager",
-                ProjectDescription: "My Task Manager. This is my to-do website to track my daily activities. Anyone can manage their Task in my website by creating Account.",
+                ProjectName: "Warehouse",
+                ProjectDescription: "E-Commerce website, Products are listed. By creating account user can store product in cart, To store data I have used mongodb",
                 ProjectLanguage: "Javascript, React.js, Express.js, Node.js, Mongodb",
-                ProjectLink: "https://mytaskmanagers.herokuapp.com/",
+                ProjectGitLink: "https://github.com/SujithGunasekaran",
+                ProjectLink: "https://yourwarehouse.herokuapp.com",
                 ProjectLinkBtnDisplayName: "View Website"
             },
             {
                 ProjectName: "YouTube Clone",
                 ProjectDescription: "YouTube. This is my video corner website, I have build Youtube clone in React.js with the help of 'Youtube API V3'.",
                 ProjectLanguage: "Javascript, React.js",
+                ProjectGitLink: "https://github.com/SujithGunasekaran",
                 ProjectLink: "https://videowebplace.herokuapp.com/",
                 ProjectLinkBtnDisplayName: "View Website"
             },
@@ -220,6 +250,7 @@ export const myInfo = {
                 ProjectName: "JSON Difference",
                 ProjectDescription: "JSON Difference. In JSON difference tool we can compare Two JSON data it will show the difference and also difference will be highlighted and shown to the user.",
                 ProjectLanguage: "Javascript, React.js",
+                ProjectGitLink: "https://github.com/SujithGunasekaran",
                 ProjectLink: "https://jsondifference.herokuapp.com",
                 ProjectLinkBtnDisplayName: "View Website"
             },
@@ -227,6 +258,7 @@ export const myInfo = {
                 ProjectName: "Saffron",
                 ProjectDescription: "Saffron Gallery App. We can upload images, Images can be download by any person from our website it totally free",
                 ProjectLanguage: "Javascript, React.js, Express.js, Mongodb, Firebase",
+                ProjectGitLink: "https://github.com/SujithGunasekaran",
                 ProjectLink: "No",
                 ProjectLinkBtnDisplayName: "View Website"
             },
@@ -234,6 +266,7 @@ export const myInfo = {
                 ProjectName: "Song API",
                 ProjectDescription: "This API is used to get song data and anyone can add song data with post method, and also Developed UI to test this API.",
                 ProjectLanguage: "Javascript, Express.js, Mongodb",
+                ProjectGitLink: "https://github.com/SujithGunasekaran",
                 ProjectLink: "No",
                 ProjectLinkBtnDisplayName: "View Website"
             }
