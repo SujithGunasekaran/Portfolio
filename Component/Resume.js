@@ -10,7 +10,7 @@ export default function Resume() {
             <div className="resume-container">
                 <div className="row" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
                     <div className="col-md-12">
-                        <div className="resume-heading">Work Experience</div>
+                        <div className="resume-heading">Education and Work Experience</div>
                     </div>
                 </div>
                 <div className="row" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
