@@ -5,15 +5,17 @@ import Resume from '../Component/Resume';
 import Project from '../Component/Project';
 
 function MyInfo() {
+
     const { Home } = myInfo;
+
     return (
         <div className="myinfo-main">
-            <div className="container-fluid">
+            <div className="container">
                 <div className="row">
-                    <div className="col-md-7 mx-auto">
+                    <div className="col-md-12">
                         <div className="myinfo-letter-container">
-                            <div className="myinfo-letter-heading">{Home.myName}</div>
-                            <div className="myinfo-line"></div>
+                            <div className="myinfo-letter-intro">Hi, my name is</div>
+                            <h2 className="myinfo-letter-heading">{Home.myName}</h2>
                             <div className="myinfo-letter-about">{Home.myInfo}</div>
                             <div className="myinfo-font-icon-display">
                                 {
@@ -25,7 +27,7 @@ function MyInfo() {
                                 }
                             </div>
                             <div className="row">
-                                <div className="col-md-4 mx-auto">
+                                <div className="col-md-3">
                                     <div className="myinfo-resume-btn-display">
                                         <button className="myinfo-resume-btn">
                                             <a href={Home.myResumeBtn.myResumeLink} target="_blank">{Home.myResumeBtn.myResumeName}</a>
@@ -38,10 +40,18 @@ function MyInfo() {
                 </div>
                 <div className="row">
                     <div className="col-md-12">
-                        <About />
-                        <Resume />
-                        <Project />
-                        <Contact />
+                        <div id="about">
+                            <About />
+                        </div>
+                        <div id="resume">
+                            <Resume />
+                        </div>
+                        <div id="project">
+                            <Project />
+                        </div>
+                        <div id="contact">
+                            <Contact />
+                        </div>
                     </div>
                 </div>
             </div>
