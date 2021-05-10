@@ -15,9 +15,21 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta charSet="utf-8" />
         <title>Sujith Gunasekaran</title>
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="This is my portfolio to know more about me. What I do, Projects that I have build..." />
+        <meta name="title" content="Sujith Gunasekaran" />
+        <meta name="description" content="Personal website" />
+        <meta name="keywords" content="Sujith, SujithGunasekaran, SujithGunasekaran vercel, Gunasekaran, personal website" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://sujithgunasekaran.vercel.app/" />
+        <meta property="og:title" content="Sujith Gunasekaran" />
+        <meta property="og:description" content="Personal Website" />
+        <meta property="og:image" content="" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="http://sujithgunasekaran.vercel.app/" />
+        <meta property="twitter:title" content="Sujith Gunasekaran" />
+        <meta property="twitter:description" content="Personal Website" />
+        <meta property="twitter:image" content="" />
+
         {/* Bootstrap CSS */}
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossOrigin="anonymous"></link>
 
