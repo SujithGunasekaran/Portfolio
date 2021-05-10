@@ -6,20 +6,14 @@
 }
 .resume-heading
 {
-    border-top: 2px solid #343a42;
-    border-bottom: 2px solid #343a42;
-    box-shadow: inherit;
-    text-align: center;
-    border-radius: 5px;
-    background-color: #191c20;
-    padding : 40px 15px;
-    color : white;
-    word-spacing: 1.5px;
-    font-size: 1.988rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
+    padding-bottom: 20px;
+    color : var(--first-white);
+    font-weight: 500;
+    letter-spacing: 0.050rem;
+    word-spacing: 1px;
+    font-size: 1.8rem;
+    font-family: var(--inter-font);
+    transition: 0.5s all ease-in-out;
 }
 .education-list
 {
@@ -30,7 +24,7 @@
 {
     margin-left: 14px;
     padding-bottom: 20px;
-    border-left: 6px solid #1f2327;
+    border-left: 3px solid #1f2327;
 }
 .hr-resume
 {
@@ -41,9 +35,9 @@
 {
     margin-top: 40px;
     letter-spacing: 0.4px;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--inter-font);
     font-size: 1.5rem;
-    color : white;
+    color : var(--third-white);
     line-height: 2.1rem;
     font-weight: 600;
 }
@@ -51,7 +45,7 @@
 {
     margin-top: 8px;
     margin-left: 1px;
-    border : 2px solid #61dafb;
+    border : 1px solid #61dafb;
     width : 45px;
 }
 .education-type-display
@@ -66,25 +60,25 @@
 }
 .education-year-btn
 {
-    height : 26px;
     border-radius: 24px;
     box-shadow: 0 3px 15px rgba(18, 12, 22, 0.16), 0 3px 15px rgba(13, 13, 15, 0.23);
-    background-color: #61dafb;
     display: inline-block;
-    padding : 2.3px 14px;
+    border: 1px solid var(--primary-blue);
+    padding : 2px 14px;
     text-align: center;
-    font-size: 15px;
-    color : rgb(31, 30, 30);
-    font-weight: bolder;
-    font-family: 'Nunito', sans-serif;
+    font-size: .9rem;
+    color : var(--primary-blue);
+    font-weight: 500;
+    letter-spacing: 0.050rem;
+    font-family: var(--inter-font);
 }
 .education-type-resume
 {
     padding-top: 3.4px;
     padding-left: 15px;
-    font-family: 'Inter', sans-serif;
-    color : #9198a3;
-    font-weight: 600;
+    font-family: var(--inter-font);
+    color : var(--second-white);
+    font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.035rem;
 }
@@ -92,11 +86,11 @@
 {
     padding-top: 20px;
     padding-left: 30px;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--inter-font);
     font-size: 1.010rem;
     word-spacing: 1px;
     letter-spacing: 0.050rem;
-    color : white;
+    color : var(--first-white);
     font-weight: 400;
 }
 .education-clg-degeree-resume
@@ -146,7 +140,7 @@
     letter-spacing: 0.4px;
     font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
-    color : white;
+    color : var(--third-white);
     font-weight: 600;
 }
 .coding-skill-head-subheading
@@ -154,16 +148,16 @@
     padding : 30px 0px;
     letter-spacing: 0.040rem;
     word-spacing: 0.040rem;
-    font-family: 'Inter', sans-serif;
-    font-size: 0.950rem;
-    color : #b8c3d3;
+    font-family: var(--inter-font);
+    font-size: 1rem;
+    color : var(--third-white);
     line-height: 200%;
     font-weight: 300;
 }
 .coding-skill-container
 {
     margin : 20px 0px;
-    border: 1px solid rgb(158, 191, 231);
+    border: 1px solid rgb(176, 234, 245);
     border-radius: 0.5rem;
     padding : 30px 25px;
     display: flex;
@@ -187,9 +181,9 @@
     padding-top : 25px;
     letter-spacing: 0.040rem;
     word-spacing: 1.3px;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--inter-font);
     font-size: 0.900rem;
-    color : #b8c3d3;
+    color : var(--third-white);
     font-weight: 400;
 }
 @media(max-width:370px){

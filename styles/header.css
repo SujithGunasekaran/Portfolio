@@ -1,18 +1,25 @@
 .header-main
 {
     width: 100%;
-    padding : 20px 0px;
     position: fixed;
     z-index: 10000;
     transition: 0.5s all ease-in-out;
 }
 .header-background
 {
-    background-color: black;
+    background-color: var(--dark-first);
     transition: 0.5s all ease-in-out;
 }
 
 /* header laptop and system view */
+
+.header-container-display
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding : 20px 0px;
+}
 
 .header-laptop-info
 {
@@ -27,134 +34,49 @@
 .header-my-name
 {
     padding-left: 9px;
-    color: #61dafb;
-    font-size: 0.900rem;
-    letter-spacing: 0.8px;
+    color: var(--primary-blue);
+    font-size: .980rem;
+    letter-spacing: 0.040rem;
     word-spacing: 1px;
-    font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-family: var(--Montserrat-font);
     text-transform: uppercase;
     transition: 0.5s all ease-in-out;
 }
-.header-list-name
+
+.header-nav-list
 {
     display: flex;
-    margin-left : auto;
 }
-.header-list-name-style
+
+.header-nav-links
 {
-    padding-left: 25px;
-    padding-top: 11px;
-    color : rgb(215, 218, 219);
-    font-size: 0.780rem;
-    letter-spacing: 1px;
-    display: inline-block;
+    padding-right: 15px;
+    color : var(--third-white);
+}
+.header-nav-item
+{
+    padding-right: 25px;
+    color : var(--third-white);
+    font-size: 1rem;
+    letter-spacing: 0.040rem;
     word-spacing: 1px;
-    font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
+    font-weight: 400;
+    font-family: var(--inter-font);
     transition: 0.5s all ease-in-out;
 }
-.header-list-name-style.active
+.header-nav-item:hover
 {
-    color: #61dafb !important;
-}
-.header-list-name-style:hover
-{
-    color: #61dafb;
     cursor: pointer;
-}
-
-/* header mobile view */
-
-.header-mobile-info
-{
-    display: none;
-    margin-left : auto;
-}
-.header-hamburger-logo
-{
-    margin-top: 25px;
-    width: 40px;
-    height: 40px;
-    background: url(https://i.ibb.co/HrfVRcx/menu.png);
-    background-repeat: no-repeat;
-    background-size: 30px;
-    cursor: pointer;  
-    transition: 0.4s all ease-in-out;
-}
-.header-hamburger-logo-two
-{
-    width: 20px;
-    height: 20px;
-    background: url(https://i.ibb.co/rt3HybH/close.png);
-    background-repeat: no-repeat;
-    background-size: 20px;
-    background-position: center;
-    cursor: pointer; 
-    margin-top: 25px;
-    margin-right: 25px;
-    margin-left: auto;
-}
-.header-list-dropdown-name
-{
-    display: none;
-    position: absolute;
-    position: fixed;
-    top : 0;
-    left : 0;
-    background-color: #0d1117;
-    width: 100%;
-    height: 100vh;
-    transition: all 0.5s ease-in-out;
-    transform: translate(-50rem);
-    z-index: 10000;
-}
-.header-list-dropdown-name.open
-{
-    transform: translate(0rem);
-    z-index: 10000;
-}
-.header-dropdown-li-display li
-{   
-    display: flex;
-    padding : 20px 25px;
-    list-style: none;
-    align-items: center;
-}
-.header-dropdown-li-icon
-{
-    color : rgb(211, 208, 208);
-    font-size: 20px;
-}
-.header-dropdown-li-name
-{
-    color : white;
-    font-size: 19px;
-    padding-top: 7px;
-    padding-left: 15px;
-    font-size: 0.900rem;
-    letter-spacing: 1.3px;
-    display: inline-block;
-    word-spacing: 1px;
-    font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    transition: 0.5s all ease-in-out;
-}
-.header-dropdown-li-name.active
-{
-    color : #61dafb;
+    color : var(--primary-blue);
 }
 
 
 @media(max-width:780px){
-    .header-list-dropdown-name{display: block;}
-    .header-logo-name{ padding-top: 5px; }
-    .header-my-name{ padding-top: 7px; }
-    .header-list-name{display: none}
-    .header-mobile-info{display: block}
-    .header-main{padding-top : 5px;padding-bottom: 10px;padding-left: 0px;padding-right: 0px}
+    .header-logo-name{ padding-top: 10px; }
+    .header-my-name{ padding-top: 3px; }
+    .header-container-display{ padding : 15px 0px; }
+    .header-nav-list{display: none}
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');

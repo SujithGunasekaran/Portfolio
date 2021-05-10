@@ -5,20 +5,14 @@
 }
 .project-heading
 {
-    border-top: 2px solid #343a42;
-    border-bottom: 2px solid #343a42;
-    box-shadow: inherit;
-    text-align: center;
-    border-radius: 5px;
-    background-color: #191c20;
-    padding : 40px 15px;
-    color : white;
-    word-spacing: 1.5px;
-    font-size: 1.988rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    font-family: 'Inter', sans-serif;
-    text-transform: uppercase;
+    padding-bottom: 20px;
+    color : var(--first-white);
+    font-weight: 500;
+    letter-spacing: 0.050rem;
+    word-spacing: 1px;
+    font-size: 1.8rem;
+    font-family: var(--inter-font);
+    transition: 0.5s all ease-in-out;
 }
 
 /* Project card container */
@@ -30,27 +24,60 @@
 .project-card
 {
     margin-top: 20px;
-    padding : 30px 15px;
-    /* background-color: #282b30; */
-    background-color: #202124;
+    padding : 2rem 1.75rem;
+    background-color: rgb(26, 26, 29);
     height : 95%;
-    border-radius: 0.25rem;
-    box-shadow: 10px 10px 20px rgba(12, 12, 12, 0.16), 10px 10px 20px rgba(12, 12, 12, 0.23);
+    border-radius: 8px;
+    box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
 }
-.project-card:hover
+.project-card-top-display
 {
-    background-color: #26272b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.project-card-top-folder-icon
+{
+    font-size: 2.1rem !important;
+    color : var(--primary-blue) !important;
+   
+}
+.project-card-top-font-icon
+{
+    padding-right: 20px;
+    font-size: 1.1rem !important;
+    color : var(--third-white) !important;
+    transition: 0.4s all ease-in-out;
+    font-weight: 400;
+    cursor: pointer;
+}
+.project-card-top-font-icon2
+{
+    font-size: 1.1rem !important;
+    color : var(--third-white) !important;
+    transition: 0.4s all ease-in-out;
+    font-weight: 400;
+    cursor: pointer;
+}
+.project-card-top-font-icon:hover
+{
+    color : var(--primary-blue) !important;
+}
+.project-card-top-font-icon2:hover
+{
+    color : var(--primary-blue) !important;
 }
 .project-card-title
 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--inter-font);
     padding-bottom: 10px;
     font-weight: 600;
-    font-size: 1.55rem;
+    font-size: 1.2rem;
     line-height: 2.275rem;
-    letter-spacing: 0.115rem;
+    letter-spacing: 0.060rem;
     text-transform: uppercase;
-    color : white;
+    color : var(--third-white);
     transition: 0.5s all ease-in-out;
 }
 .project-card-heading-line
@@ -62,53 +89,33 @@
 }
 .project-card-description
 {
-    padding : 20px 6px 5px 6px;
-    color : #dce0e7;
+    padding : 10px 0px 5px 0px;
+    color : var(--third-white);
     font-size: 0.850rem;
-    line-height: 2.1rem;
+    line-height: 2rem;
     letter-spacing: 0.050rem;
-    font-weight: 300;
+    font-weight: 400;
     word-spacing: 1px;
     font-family: 'Inter', sans-serif;
     transition: 0.5s all ease-in-out;
 }
 .project-card-tech-stack
 {
-    padding : 20px 6px 10px 6px;
-    color : #dce0e7;
-    font-size: 0.850rem;
+    padding : 15px 0px 10px 0px;
+    color : var(--primary-blue);
+    font-size: 0.750rem;
     line-height: 1.988rem;
-    letter-spacing: 0.040rem;
+    letter-spacing: 0.060rem;
     font-weight: 400;
     word-spacing: 1px;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--inter-font);
     transition: 0.5s all ease-in-out;
 }
 .project-card-tech-stack-language
 {
     display: inline-block;
     word-spacing: 2px;
-    color : #82d5ec;
-}
-.project-card-source-code-btn
-{
-    margin : 35px 6px 15px 6px;
-    border: none;
-    bottom : 25px;
-    width : 97%;
-    padding : 14px 10px;
-    border-radius: 6px;
-    background-color: #333941;
-    color : white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.050rem;
-    box-shadow: 0 8px 8px -8px rgba(0,0,0,.78);
-}
-.project-card-source-code-btn:focus
-{
-    outline : none;
+    color : var(--primary-blue);
 }
 .project-card-source-code-icon
 {
@@ -123,7 +130,6 @@
     width : 97%;
     padding : 12px 10px;
     border-radius: 6px;
-    /* background-color: #525353; */
     background-color: #202124;
     color : white;
     font-family: 'Montserrat', sans-serif;
@@ -150,24 +156,22 @@
 .project-card-more-website-btn
 {
     margin : 45px 6px 15px 6px;
-    border: 1px solid #007ced;
+    border: 1px solid var(--primary-blue);
     width : 97%;
     padding : 12px 10px;
     border-radius: 6px;
-    background-color: #0d1117;
-    color : white;
-    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    color : var(--first-white);
+    font-family: var(--inter-font);
     font-size: 1rem;
     font-weight: 500;
-    letter-spacing: 0.050rem;
+    letter-spacing: 0.070rem;
     transition: 0.5s all ease-in-out;
     box-shadow: 0 8px 8px -8px rgba(0,0,0,.78);
 } 
 .project-card-more-website-btn:hover
 {
-    border: 1px solid #007ced;
-    background-color: #007ced;
-    color : white;
+    color : var(--primary-blue);
     cursor: pointer;
 }
 .project-card-more-website-btb:focus
@@ -177,28 +181,34 @@
 .project-card-more-website-btn a
 {
     display: inline-block;
-    color : white;
+    color : var(--first-white);
     text-decoration: none;
+    transition: 0.5s all ease-in-out;
+}
+.project-card-more-website-btn a:hover
+{
+    color : var(--primary-blue);
 }
 .project-skill-head-resume
 {
-    margin-top: 40px;
     letter-spacing: 0.4px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--inter-font);
     font-size: 1.5rem;
-    color : white;
+    color : var(--third-white);
+    line-height: 2.1rem;
     font-weight: 600;
 }
 .project-skill-head-subheading
 {
-    padding : 30px 0px;
-    letter-spacing: 0.040rem;
-    word-spacing: 0.040rem;
-    font-family: 'Inter', sans-serif;
-    font-size: 0.900rem;
-    color : #b8c3d3;
-    line-height: 220%;
-    font-weight: 300;
+    padding: 25px 0px 25px 0px;
+    color : var(--third-white);
+    font-size: .950rem;
+    line-height: 2rem;
+    letter-spacing: 0.060rem;
+    font-weight: 400;
+    word-spacing: 1px;
+    font-family: var(--inter-font);
+    transition: 0.5s all ease-in-out;
 }
 
 @media(max-width:370px){

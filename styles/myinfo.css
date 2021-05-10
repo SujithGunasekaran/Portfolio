@@ -1,22 +1,39 @@
 .myinfo-main
 {
     width: 100%;
-    padding : 150px 10px 100px 10px;
+    padding : 130px 10px 150px 10px;
 }
 .myinfo-letter-container
 {
     padding-top: 10px;
     width : 100%;
 }
+.myinfo-letter-intro
+{
+    padding : 10px 0px;
+    color : var(--primary-blue);
+    font-family: var(--inter-font);
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 0.050rem;
+}
 .myinfo-letter-heading
 {
-    color : rgb(234, 237, 238);
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
+    color : var(--third-white);
+    font-weight: 600;
     letter-spacing: 0.175rem;
-    font-family: 'Montserrat', sans-serif;
     word-spacing: 1px;
+    font-size: clamp(40px, 8vw, 80px);
+    transition: 0.5s all ease-in-out;
+}
+.myinfo-letter-quote
+{
+    padding : 10px 0px;
+    color : var(--second-white);
+    font-weight: 700;
+    letter-spacing: 0.050rem;
+    word-spacing: 1px;
+    font-size: clamp(20px, 4vw, 50px);
     transition: 0.5s all ease-in-out;
 }
 .myinfo-line
@@ -39,26 +56,20 @@
 .myinfo-letter-about
 {
     padding: 15px 0px 25px 0px;
-    color : #dce0e7;
-    font-size: 1rem;
-    line-height: 1.988rem;
+    color : var(--third-white);
+    font-size: 1.1rem;
+    line-height: 2rem;
     letter-spacing: 0.060rem;
     font-weight: 400;
     word-spacing: 1px;
-    text-align: center;
-    width: 100%;
-    font-family: 'Inter', sans-serif;
+    max-width: 700px;
+    font-family: var(--inter-font);
     transition: 0.5s all ease-in-out;
 } 
-.myinfo-my-image
-{
-    width : 100%;
-}
 
 .myinfo-font-icon-display
 {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 .myinfo-font-icon
@@ -74,21 +85,18 @@
 }
 .myinfo-resume-btn-display
 {
-    display: flex;
-    justify-content: center;
     margin : 45px 0px 0px 0px;
 }
 .myinfo-resume-btn
 {
-    border: 1px solid #007ced;
+    border: 1px solid var(--primary-blue);
     width : 100%;
     padding : 12px 10px;
     border-radius: 6px;
-    background-color: #0d1117;
-    color : white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
+    background-color: var(--dark-first);
+    font-family: var(--inter-font);
+    font-size: 1.050rem;
+    font-weight: 400;
     letter-spacing: 0.060rem;
     box-shadow: 0 8px 8px -8px rgba(0,0,0,.78);
     transition: 0.5s all ease-in-out;
@@ -96,15 +104,17 @@
 .myinfo-resume-btn a
 {
     display: inline-block;
-    color : white;
+    color : var(--first-white);
     text-decoration: none;
+    transition: 0.4s all ease-in-out;
 }
 .myinfo-resume-btn:hover
 {
-    border: 1px solid #007ced;
-    background-color: #007ced;
-    color : white;
     cursor: pointer;
+}
+.myinfo-resume-btn a:hover
+{
+    color: var(--primary-blue);
 }
 .myinfo-resume-btn:focus
 {
@@ -114,10 +124,5 @@
     .myinfo-letter-heading{font-size: 2rem;}
 }
 @media(max-width:780px){
-    .myinfo-my-image{display: none;}
-    .myinfo-letter-heading{text-align: left;}
-    .myinfo-line{margin: 10px 0px;}
-    .myinfo-letter-about{text-align: left;}
-    .myinfo-font-icon-display{justify-content: left;}
-    .myinfo-main{padding-top : 100px; width: 100%; padding-bottom: 20px;padding-left: 0px;padding-right: 0px;margin-top: -3px;}
+    .myinfo-main{padding-top : 150px; width: 100%; padding-bottom: 20px;padding-left: 5px;padding-right: 5px;margin-top: -3px;}
 }

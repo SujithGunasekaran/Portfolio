@@ -1,6 +1,19 @@
+:root{
+    --dark-first : #0f0f13;
+    --dark-second : #202026;
+    --primary-blue : #61dafb;
+    --first-white : #FFFFFF;
+    --second-white : #9A9AA6;
+    --third-white : #B2B6B9;  
+
+    --Montserrat-font : 'Montserrat', sans-serif;
+    --inter-font : 'Inter', sans-serif;
+}
+
+
 .main-info-css
 {
-    background-color: #0d1117;
+    background-color: var(--dark-first);
     min-height: 100vh;
     padding : 0px 0px;
     width: 100%;
