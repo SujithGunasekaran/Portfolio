@@ -157,7 +157,7 @@
 .coding-skill-container
 {
     margin : 20px 0px;
-    background-color: rgb(26, 26, 29);
+    background-color: #192431;
     border-radius: 0.5rem;
     padding : 30px 25px;
     display: flex;
@@ -169,7 +169,6 @@
 }
 .coding-skill-logo
 {
-    /* background-color: rgb(220, 235, 240); */
     color : var(--primary-blue);
     text-align: center;
     width : 2.6rem;
