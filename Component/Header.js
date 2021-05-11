@@ -36,7 +36,7 @@ export default function Header() {
                                 <div className="header-laptop-info">
                                     <div className="header-logo-name">
                                         <Avatar style={{ backgroundColor: 'var(--dark-first)', border: '2px solid var(--primary-blue)', color: 'var(--primary-blue)' }}>S</Avatar>
-                                        {/* <div className="header-my-name">{Header.logoName}</div> */}
+                                        <div className="header-my-name">{Header.logoName}</div>
                                     </div>
                                 </div>
                                 <div className="header-nav-list">
