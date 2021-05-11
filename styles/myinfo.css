@@ -19,7 +19,7 @@
 }
 .myinfo-letter-heading
 {
-    color : var(--third-white);
+    color : var(--first-white);
     font-weight: 600;
     letter-spacing: 0.175rem;
     word-spacing: 1px;
