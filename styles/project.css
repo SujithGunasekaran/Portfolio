@@ -25,7 +25,7 @@
 {
     margin-top: 20px;
     padding : 2rem 1.75rem;
-    background-color: #192431;
+    background-color: var(--dark-second);
     height : 95%;
     border-radius: 8px;
     box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
@@ -72,12 +72,12 @@
 {
     font-family: var(--inter-font);
     padding-bottom: 10px;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.2rem;
     line-height: 2.275rem;
     letter-spacing: 0.060rem;
     text-transform: uppercase;
-    color : var(--third-white);
+    color : var(--first-white);
     transition: 0.5s all ease-in-out;
 }
 .project-card-heading-line

@@ -24,7 +24,7 @@
 {
     margin-left: 14px;
     padding-bottom: 20px;
-    border-left: 3px solid #1f2327;
+    border-left: 3px solid var(--dark-second);
 }
 .hr-resume
 {
@@ -157,7 +157,7 @@
 .coding-skill-container
 {
     margin : 20px 0px;
-    background-color: #192431;
+    background-color: var(--dark-second);
     border-radius: 0.5rem;
     padding : 30px 25px;
     display: flex;

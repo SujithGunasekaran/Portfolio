@@ -1,7 +1,7 @@
 :root{
-    --dark-first : #141b24;
-    --dark-second : #202026;
-    --primary-blue : #61dafb;
+    --dark-first : #000000;
+    --dark-second : #181616;
+    --primary-blue : #4dcdf0;
     --first-white : #FFFFFF;
     --second-white : #9A9AA6;
     --third-white : #B2B6B9;  
@@ -33,7 +33,7 @@
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background: #436285; 
+    background: #686868; 
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
     box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 }
