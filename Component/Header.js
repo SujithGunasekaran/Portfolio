@@ -24,6 +24,26 @@ export default function Header() {
                 document.querySelector(`#${section}`).scrollIntoView({ behavior: 'smooth' });
             }
         })
+
+        const sectionObserver = new IntersectionObserver((entries => {
+            if (entries[0].isIntersecting) {
+                const navList = document.querySelectorAll('.header-nav-item');
+                const currentSection = entries[0].target.id;
+                for (let i = 0; i < navList.length; i++) {
+                    navList[i].style.color = "";
+                    if (navList[i].dataset.section === currentSection) navList[i].style.color = "#4dcdf0";
+                }
+            }
+        }), {
+            root: null,
+            threshold: 0.30
+        });
+
+        [document.querySelector('#about'), document.querySelector('#resume'), document.querySelector('#project'), document.querySelector('#contact')]
+            .forEach(section => {
+                sectionObserver.observe(section);
+            })
+
     })
 
     return (

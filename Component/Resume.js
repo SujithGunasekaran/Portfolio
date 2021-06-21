@@ -129,12 +129,6 @@ export default function Resume() {
                             <div className="coding-skill-name">Next.js</div>
                         </div>
                     </div>
-                    {/* <div className="col-md-3">
-                        <div className="coding-skill-container">
-                            <div className="coding-skill-logo"><DiJavascript1 /></div>
-                            <div className="coding-skill-name">Next.js</div>
-                        </div>
-                    </div> */}
                 </div>
             </div>
         </div>
