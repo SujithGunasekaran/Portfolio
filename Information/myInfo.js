@@ -232,7 +232,7 @@ export const myInfo = {
             },
             {
                 ProjectName: "Warehouse",
-                ProjectDescription: "E-Commerce website, Products are listed. By creating account user can store product in cart, To store data I have used mongodb",
+                ProjectDescription: "E-Commerce Web application, Products are listed. By creating account user can store product in cart, To store data I have used mongodb",
                 ProjectLanguage: "Javascript, React.js, Express.js, Node.js, Mongodb",
                 ProjectGitLink: "https://github.com/SujithGunasekaran",
                 ProjectLink: "No",

@@ -9,13 +9,12 @@ export default function MyProject() {
                 <div className="row" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
                     <div className="col-md-12">
                         <div className="project-heading">{Project.ProjectHeading}</div>
+                        <div className="project-heading-line"></div>
                     </div>
                 </div>
                 <div className="project-card-container">
                     <div className="row">
                         <div className="col-md-12" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-                            <div className="project-skill-head-resume">{Project.ProjectSubHeading}</div>
-                            <div className="education-name-line"></div>
                             <div className="project-skill-head-subheading">{Project.ProjectInfo}</div>
                         </div>
                         {
@@ -46,9 +45,8 @@ export default function MyProject() {
                                 </div>
                             ))
                         }
-                        <div className="col-md-2 mx-auto">
+                        <div className="col-md-3 mx-auto">
                             <button className="project-card-more-website-btn"><a href={Project.ProjectBtnLink} target="_blank" rel="noreference">{Project.ProjectBtnName}</a></button>
-
                         </div>
                     </div>
                 </div>

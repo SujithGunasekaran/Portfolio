@@ -11,6 +11,7 @@ export default function Resume() {
                 <div className="row" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
                     <div className="col-md-12">
                         <div className="resume-heading">Education and Work Experience</div>
+                        <div className="resume-heading-line"></div>
                     </div>
                 </div>
                 <div className="row" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
@@ -34,7 +35,7 @@ export default function Resume() {
                                                         <div className="education-details" key={index}>
                                                             <div className="education-clg-name-resume">{mystudyInfo.InstituteName}</div>
                                                             <div className="education-clg-degeree-resume">{mystudyInfo.InstituteCourse}</div>
-                                                            <hr className="hr-resume" />
+                                                            <div className="hr-resume" />
                                                         </div>
                                                     ))
                                                 }

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import Avatar from '@material-ui/core/Avatar';
 import { myInfo } from '../Information/myInfo';
+import Image from 'next/image';
 
 export default function Header() {
 
@@ -30,8 +30,8 @@ export default function Header() {
                 const navList = document.querySelectorAll('.header-nav-item');
                 const currentSection = entries[0].target.id;
                 for (let i = 0; i < navList.length; i++) {
-                    navList[i].style.color = "";
-                    if (navList[i].dataset.section === currentSection) navList[i].style.color = "#4dcdf0";
+                    navList[i].classList.remove('active');
+                    if (navList[i].dataset.section === currentSection) navList[i].classList.add('active');
                 }
             }
         }), {
@@ -39,7 +39,7 @@ export default function Header() {
             threshold: 0.30
         });
 
-        [document.querySelector('#about'), document.querySelector('#resume'), document.querySelector('#project'), document.querySelector('#contact')]
+        [document.querySelector('#home'), document.querySelector('#about'), document.querySelector('#resume'), document.querySelector('#project'), document.querySelector('#contact')]
             .forEach(section => {
                 sectionObserver.observe(section);
             })
@@ -55,11 +55,11 @@ export default function Header() {
                             <div className="header-container-display">
                                 <div className="header-laptop-info">
                                     <div className="header-logo-name">
-                                        <Avatar style={{ backgroundColor: 'var(--dark-first)', border: '2px solid var(--primary-blue)', color: 'var(--primary-blue)' }}>S</Avatar>
-                                        <div className="header-my-name">{Header.logoName}</div>
+                                        <Image src={'/assert/favicon_io/desktop_icon.png'} width={46} height={46} />
                                     </div>
                                 </div>
                                 <div className="header-nav-list">
+                                    <div data-section="home" className="header-nav-item active">Home</div>
                                     <div data-section="about" className="header-nav-item">About</div>
                                     <div data-section="resume" className="header-nav-item">Experience</div>
                                     <div data-section="project" className="header-nav-item">Projects</div>
