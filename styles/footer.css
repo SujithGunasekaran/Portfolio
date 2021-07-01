@@ -19,7 +19,7 @@
 }
 .footer-icon:hover
 {
-    color: #61dafb !important;
+    color: var(--highlight-text) !important;
     cursor: pointer;
     transform: scale(0.5) translateY(-15px);
 }

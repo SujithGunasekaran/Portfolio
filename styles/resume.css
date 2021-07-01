@@ -1,22 +1,29 @@
 .resume-container
 {
-    margin : 85px 0px 30px 0px;
+    margin : 90px 0px 30px 0px;
     width : 100%;
     transition: 0.5s all ease-in-out;
 }
 .resume-heading
 {
-    padding-bottom: 20px;
     color : var(--first-white);
-    font-weight: 500;
-    letter-spacing: 0.050rem;
-    word-spacing: 1px;
-    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 0.060rem;
+    word-spacing: 2px;
+    font-size: clamp(40px, 8vw, 30px);
     font-family: var(--inter-font);
     transition: 0.5s all ease-in-out;
 }
+.resume-heading-line
+{
+    margin-top: 9px;
+    margin-left: 1px;
+    border : 2px solid var(--highlight-border);
+    width : 75px;
+}
 .education-list
 {
+    padding: 30px 0px;
     display: flex;
     flex-direction: column;
 }
@@ -24,12 +31,11 @@
 {
     margin-left: 14px;
     padding-bottom: 20px;
-    border-left: 3px solid var(--dark-second);
+    border-left: 2px solid var(--dark-second);
 }
 .hr-resume
 {
-    margin-top: 30px;
-    border-color: #1e2227;
+    margin-top: 35px;
 }
 .education-name-resume
 {
@@ -41,13 +47,13 @@
     line-height: 2.1rem;
     font-weight: 600;
 }
-.education-name-line
+/* .education-name-line
 {
     margin-top: 8px;
     margin-left: 1px;
     border : 1px solid #61dafb;
     width : 45px;
-}
+} */
 .education-type-display
 {
     margin-top: 60px;
@@ -63,13 +69,14 @@
     border-radius: 24px;
     box-shadow: 0 3px 15px rgba(18, 12, 22, 0.16), 0 3px 15px rgba(13, 13, 15, 0.23);
     display: inline-block;
-    border: 1px solid var(--primary-blue);
+    border: 1px solid var(--highlight-border);
+    background-color: var(--highlight-btn-bg);
     padding : 2px 14px;
     text-align: center;
     font-size: .9rem;
-    color : var(--primary-blue);
-    font-weight: 500;
-    letter-spacing: 0.050rem;
+    color : var(--text-black);
+    font-weight: 600;
+    letter-spacing: 0.010rem;
     font-family: var(--inter-font);
 }
 .education-type-resume
@@ -86,34 +93,35 @@
 {
     padding-top: 20px;
     padding-left: 30px;
-    font-family: var(--inter-font);
-    font-size: 1.010rem;
-    word-spacing: 1px;
-    letter-spacing: 0.050rem;
     color : var(--first-white);
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.050rem;
     font-weight: 400;
+    word-spacing: 1px;
+    font-family: var(--inter-font);
 }
 .education-clg-degeree-resume
 {
     padding-top: 14px;
     padding-left: 30px;  
-    font-family: 'Inter', sans-serif;
-    font-size: 0.920rem;
-    letter-spacing: 0.030rem;
+    color : var(--third-white);
+    font-size: .850rem;
+    line-height: 2rem;
+    letter-spacing: 0.060rem;
+    font-weight: 400;
     word-spacing: 1px;
-    line-height: 1.855rem;
-    font-weight: 300;
-    color : #b8c3d3;
+    font-family: var(--inter-font);
 }
 .education-clg-mark-resume
 {
-    padding-top: 15px;
-    padding-left: 30px;    
-    font-size: 0.780rem;
-    font-family: 'Montserrat', sans-serif;  
-    letter-spacing: 0.4px;
-    font-weight: 500;
-    color : #b8c3d3;
+    color : var(--third-white);
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.050rem;
+    font-weight: 400;
+    word-spacing: 1px;
+    font-family: var(--inter-font);
 }
 .experience-year-btn
 {
@@ -146,18 +154,18 @@
 .coding-skill-head-subheading
 {
     padding : 30px 0px;
-    letter-spacing: 0.040rem;
-    word-spacing: 0.040rem;
-    font-family: var(--inter-font);
-    font-size: 1rem;
     color : var(--third-white);
-    line-height: 200%;
-    font-weight: 300;
+    font-size: 1rem;
+    line-height: 2rem;
+    letter-spacing: 0.060rem;
+    font-weight: 400;
+    word-spacing: 1px;
+    font-family: var(--inter-font);
 }
 .coding-skill-container
 {
     margin : 20px 0px;
-    background-color: var(--dark-second);
+    background-color: var(--card-bg);
     border-radius: 0.5rem;
     padding : 30px 25px;
     display: flex;
@@ -169,22 +177,25 @@
 }
 .coding-skill-logo
 {
-    color : var(--primary-blue);
+    color : var(--highlight-text);
     text-align: center;
     width : 2.6rem;
     height : 2.6rem;
     font-size: 2rem;
     border-radius: 50%;
+    transition: 0.5s all ease-in-out;
 }
 .coding-skill-name
 {
     padding-top : 25px;
-    letter-spacing: 0.040rem;
-    word-spacing: 1.3px;
-    font-family: var(--inter-font);
-    font-size: 0.900rem;
     color : var(--third-white);
-    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+    letter-spacing: 0.010rem;
+    font-weight: 500;
+    word-spacing: 1px;
+    font-family: var(--inter-font);
+    transition: 0.5s all ease-in-out;
 }
 @media(max-width:370px){
     .education-year-btn{padding : 1px 7px}

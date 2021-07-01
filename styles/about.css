@@ -1,27 +1,39 @@
 .about-container
 {
-    margin : 85px 0px 0px 0px;
+    margin : 90px 0px 0px 0px;
     padding : 0px 5px;
     width : 100%;
 }
+.about-hero-container
+{
+    padding : 30px 0px;
+    /* background-image: url('http://droitthemes.com/wp/mak/wp-content/uploads/2018/10/about_shap_bg.png'); */
+    width: 100%;
+}
 .about-heading
 {
-    padding-bottom: 20px;
     color : var(--first-white);
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 0.050rem;
     word-spacing: 1px;
-    font-size: 1.8rem;
+    font-size: clamp(40px, 8vw, 30px);
     font-family: var(--inter-font);
     transition: 0.5s all ease-in-out;
 }
+.about-heading-line
+{
+    margin-top: 8px;
+    margin-left: 1px;
+    border : 2px solid var(--highlight-border);
+    width : 75px;
+}
 .about-info
 {
-    padding: 15px 0px 15px 0px;
+    padding: 15px 0px 25px 0px;
     color : var(--third-white);
-    font-size: 1rem;
-    line-height: 2rem;
-    letter-spacing: 0.060rem;
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.050rem;
     font-weight: 400;
     word-spacing: 1px;
     max-width: 700px;

@@ -11,17 +11,17 @@
 .myinfo-letter-intro
 {
     padding : 10px 0px;
-    color : var(--primary-blue);
+    color : var(--highlight-text);
     font-family: var(--inter-font);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 400;
-    letter-spacing: 0.050rem;
+    letter-spacing: 0.010rem;
 }
 .myinfo-letter-heading
 {
     color : var(--first-white);
     font-weight: 600;
-    letter-spacing: 0.175rem;
+    letter-spacing: 0.070rem;
     word-spacing: 1px;
     font-size: clamp(40px, 8vw, 80px);
     transition: 0.5s all ease-in-out;
@@ -55,10 +55,10 @@
 }
 .myinfo-letter-about
 {
-    padding: 15px 0px 25px 0px;
+    padding: 25px 0px 25px 0px;
     color : var(--third-white);
     font-size: 1.1rem;
-    line-height: 2rem;
+    line-height: 2.2rem;
     letter-spacing: 0.060rem;
     font-weight: 400;
     word-spacing: 1px;
@@ -85,19 +85,19 @@
 }
 .myinfo-resume-btn-display
 {
-    margin : 45px 0px 0px 0px;
+    margin : 20px 0px 0px 0px;
 }
 .myinfo-resume-btn
 {
-    border: 1px solid var(--primary-blue);
+    border: 1px solid var(--highlight-border);
     width : 100%;
     padding : 12px 10px;
     border-radius: 6px;
-    background-color: var(--dark-first);
+    background-color: var(--highlight-btn-bg);
     font-family: var(--inter-font);
-    font-size: 1.050rem;
-    font-weight: 400;
-    letter-spacing: 0.060rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.010rem;
     box-shadow: 0 8px 8px -8px rgba(0,0,0,.78);
     transition: 0.5s all ease-in-out;
 }
@@ -111,10 +111,11 @@
 .myinfo-resume-btn:hover
 {
     cursor: pointer;
+    background-color: transparent;
 }
 .myinfo-resume-btn a:hover
 {
-    color: var(--primary-blue);
+    color: var(--highlight-text);
 }
 .myinfo-resume-btn:focus
 {

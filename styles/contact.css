@@ -5,18 +5,24 @@
 }
 .contact-heading
 {
-    padding-bottom: 20px;
     color : var(--first-white);
-    font-weight: 500;
-    letter-spacing: 0.050rem;
-    word-spacing: 1px;
-    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 0.060rem;
+    word-spacing: 2px;
+    font-size: clamp(40px, 8vw, 30px);
     font-family: var(--inter-font);
     transition: 0.5s all ease-in-out;
 }
+.contact-heading-line
+{
+    margin-top: 9px;
+    margin-left: 1px;
+    border : 2px solid var(--highlight-border);
+    width : 75px;
+}
 .contact-detail-container
 {
-    margin : 10px 0px;
+    margin : 40px 0px 20px 0px;
     width : 100%;
 }
 .contact-detail-display
@@ -34,13 +40,6 @@
     letter-spacing: 0.070rem;
     font-weight: 600;
     text-transform: uppercase;
-}
-.contact-detail-info-heading-line
-{
-    margin-top: 8px;
-    margin-left: 1px;
-    border : 1px solid #61dafb;
-    width : 40px;
 }
 .contact-detail-info
 {

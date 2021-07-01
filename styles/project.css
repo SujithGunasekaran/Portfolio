@@ -1,33 +1,42 @@
 .project-container
 {
-    margin : 85px 0px 0px 0px;
+    margin : 90px 0px 0px 0px;
     width : 100%;
 }
 .project-heading
 {
-    padding-bottom: 20px;
     color : var(--first-white);
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 0.050rem;
     word-spacing: 1px;
-    font-size: 1.8rem;
+    font-size: clamp(40px, 8vw, 30px);
     font-family: var(--inter-font);
     transition: 0.5s all ease-in-out;
+}
+.project-heading-line
+{
+    margin-top: 8px;
+    margin-left: 1px;
+    border : 2px solid var(--highlight-border);
+    width : 75px;
 }
 
 /* Project card container */
 
 .project-card-container
 {
-    margin : 25px 0px;
+    margin : 35px 0px;
 }
 .project-card
 {
     margin-top: 20px;
     padding : 2rem 1.75rem;
-    background-color: var(--dark-second);
     height : 95%;
-    border-radius: 8px;
+    background-color: var(--card-bg);
+    border-radius: 0.5rem;
+    transition: 0.5s all ease-in-out;
+    box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
+    cursor: pointer;
 }
 .project-card-top-display
 {
@@ -39,14 +48,14 @@
 .project-card-top-folder-icon
 {
     font-size: 2.1rem !important;
-    color : var(--primary-blue) !important;
+    color : var(--highlight-text) !important;
    
 }
 .project-card-top-font-icon
 {
     padding-right: 20px;
     font-size: 1.1rem !important;
-    color : var(--third-white) !important;
+    color : var(--second-white) !important;
     transition: 0.4s all ease-in-out;
     font-weight: 400;
     cursor: pointer;
@@ -54,59 +63,54 @@
 .project-card-top-font-icon2
 {
     font-size: 1.1rem !important;
-    color : var(--third-white) !important;
+    color : var(--second-white) !important;
     transition: 0.4s all ease-in-out;
     font-weight: 400;
     cursor: pointer;
 }
 .project-card-top-font-icon:hover
 {
-    color : var(--primary-blue) !important;
+    color : var(--highlight-text) !important;
 }
 .project-card-top-font-icon2:hover
 {
-    color : var(--primary-blue) !important;
+    color : var(--highlight-text) !important;
 }
 .project-card-title
 {
     font-family: var(--inter-font);
     padding-bottom: 10px;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1.2rem;
     line-height: 2.275rem;
-    letter-spacing: 0.060rem;
+    letter-spacing: 0.070rem;
     text-transform: uppercase;
     color : var(--first-white);
-    transition: 0.5s all ease-in-out;
-}
-.project-card-heading-line
-{
-    margin-top: 5px;
-    margin-left: 2px;
-    border : 2px solid #61dafb;
-    width : 70px;
+    /* transition: 0.5s all ease-in-out; */
 }
 .project-card-description
 {
     padding : 10px 0px 5px 0px;
     color : var(--third-white);
-    font-size: 0.850rem;
+    font-size: .910rem;
     line-height: 2rem;
     letter-spacing: 0.050rem;
     font-weight: 400;
     word-spacing: 1px;
-    font-family: 'Inter', sans-serif;
-    transition: 0.5s all ease-in-out;
+    max-width: 700px;
+    font-family: var(--inter-font);
+    /* transition: 0.5s all ease-in-out; */
 }
 .project-card-tech-stack
 {
     padding : 15px 0px 10px 0px;
-    color : var(--primary-blue);
-    font-size: 0.750rem;
-    line-height: 1.988rem;
-    letter-spacing: 0.060rem;
+    color : var(--highlight-text);
+    font-size: .820rem;
+    line-height: 2rem;
+    letter-spacing: 0.050rem;
     font-weight: 400;
     word-spacing: 1px;
+    max-width: 700px;
     font-family: var(--inter-font);
     transition: 0.5s all ease-in-out;
 }
@@ -114,7 +118,7 @@
 {
     display: inline-block;
     word-spacing: 2px;
-    color : var(--primary-blue);
+    color : var(--highlight-text);
 }
 .project-card-source-code-icon
 {
@@ -155,22 +159,24 @@
 .project-card-more-website-btn
 {
     margin : 45px 6px 15px 6px;
-    border: 1px solid var(--primary-blue);
+    border: 1px solid var(--highlight-border);
     width : 97%;
-    padding : 12px 10px;
+    padding : 12px 15px;
     border-radius: 6px;
     background-color: transparent;
     color : var(--first-white);
     font-family: var(--inter-font);
-    font-size: 1rem;
-    font-weight: 500;
-    letter-spacing: 0.070rem;
+    background-color: var(--highlight-btn-bg);
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.020rem;
     transition: 0.5s all ease-in-out;
     box-shadow: 0 8px 8px -8px rgba(0,0,0,.78);
 } 
 .project-card-more-website-btn:hover
 {
-    color : var(--primary-blue);
+    color : var(--highlight-text);
+    background-color: transparent;
     cursor: pointer;
 }
 .project-card-more-website-btb:focus
@@ -186,26 +192,17 @@
 }
 .project-card-more-website-btn a:hover
 {
-    color : var(--primary-blue);
-}
-.project-skill-head-resume
-{
-    letter-spacing: 0.4px;
-    font-family: var(--inter-font);
-    font-size: 1.5rem;
-    color : var(--third-white);
-    line-height: 2.1rem;
-    font-weight: 600;
+    color : var(--highlight-text);
 }
 .project-skill-head-subheading
 {
-    padding: 25px 0px 25px 0px;
-    color : var(--third-white);
-    font-size: .950rem;
-    line-height: 2rem;
-    letter-spacing: 0.060rem;
+    padding: 5px 0px 35px 0px;
+    color: var(--third-white);
+    font-size: 1.1rem;
+    line-height: 2.3rem;
+    letter-spacing: 0.050rem;
     font-weight: 400;
-    word-spacing: 1px;
+    word-spacing: 2px;
     font-family: var(--inter-font);
     transition: 0.5s all ease-in-out;
 }
