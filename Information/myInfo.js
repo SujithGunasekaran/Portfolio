@@ -71,7 +71,7 @@ export const myInfo = {
     },
     Home: {
         myName: "Sujith Gunasekaran",
-        myInfo: "I build things for web. I am a software engineer who specializes in building a responsive website. I love learning new Technologies, I want to contribute to great team.",
+        myInfo: "I build things for web. I am a software engineer who specializes in building a responsive Website and Web Apps. I love learning new Technologies.",
         myImage: "/assert/Home_my_image.svg",
         mySocialIcon: [
             {
@@ -101,7 +101,7 @@ export const myInfo = {
         },
         myActivityHeading: "About Me",
         myActivityInfoOne: "Hello! My name is Sujith Gunasekaran. I am interested in web development started back in 2020 when I decided to try to clone youtube — turns out to learn new technologies continuously.",
-        myActivityInfoTwo: "Fast-forward to today, and I've had the privilege of building a projects. My main focus these days is building accessible, inclusive products. Building a responsive website front end using React-Redux",
+        myActivityInfoTwo: "Fast-forward to today, and I've had the privilege of building a projects. My main focus these days is building accessible, inclusive products. Building a responsive website front end using React-Redux. I want to contribute to great team. Where I can utilize my training and skills, while making significant contribution to the success of the team",
         myActivityInfoThree: "Here are a few technologies I've been working with recently:",
         myActivityTechInfo: [
             {
