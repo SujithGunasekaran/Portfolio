@@ -1,10 +1,8 @@
 import { useEffect, useState } from 'react';
-import { myInfo } from '../Information/myInfo';
 import Image from 'next/image';
 
 export default function Header() {
 
-    const { Header } = myInfo;
     const [headerStyle, setHeaderStyle] = useState(false);
 
     const getScrollHeight = () => {
@@ -55,7 +53,7 @@ export default function Header() {
                             <div className="header-container-display">
                                 <div className="header-laptop-info">
                                     <div className="header-logo-name">
-                                        <Image src={'/assert/favicon_io/desktop_icon.png'} width={46} height={46} />
+                                        <Image src={'/assert/favicon_io/desktop_icon.png'} width={46} height={46} alt="SujithGunasekaran" />
                                     </div>
                                 </div>
                                 <div className="header-nav-list">
