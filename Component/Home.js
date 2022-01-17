@@ -6,7 +6,7 @@ export default function Home() {
 
     return (
         <div>
-            <div className="main-info-css">
+            <div id="main-body" className="main-info-css dark">
                 <Header />
                 <MyInfo />
                 <Footer />

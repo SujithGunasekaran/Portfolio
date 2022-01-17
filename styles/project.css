@@ -1,10 +1,11 @@
 .project-container
 {
-    margin : 90px 0px 0px 0px;
+    margin : 30px 0px 0px 0px;
     width : 100%;
 }
 .project-heading
 {
+    padding: 95px 0px 0px 0px;
     color : var(--first-white);
     font-weight: 700;
     letter-spacing: 0.050rem;
@@ -34,7 +35,7 @@
     height : 95%;
     background-color: var(--card-bg);
     border-radius: 0.5rem;
-    transition: 0.5s all ease-in-out;
+    transition: 0.4s all ease-in-out;
     box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
     cursor: pointer;
 }
@@ -98,7 +99,7 @@
     font-weight: 400;
     word-spacing: 1px;
     max-width: 700px;
-    font-family: var(--inter-font);
+    font-family: var(--font-family-roboto);
     /* transition: 0.5s all ease-in-out; */
 }
 .project-card-tech-stack
@@ -203,7 +204,7 @@
     letter-spacing: 0.050rem;
     font-weight: 400;
     word-spacing: 2px;
-    font-family: var(--inter-font);
+    font-family: var(--font-family-roboto);
     transition: 0.5s all ease-in-out;
 }
 

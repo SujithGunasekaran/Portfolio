@@ -1,13 +1,9 @@
-import { myInfo } from '../Information/myInfo';
 import About from '../Component/About';
-import Contact from '../Component/Contact';
 import Resume from '../Component/Resume';
 import Project from '../Component/Project';
 import Intro from '../Component/Intro';
 
 function MyInfo() {
-
-    const { Home } = myInfo;
 
     return (
         <div className="myinfo-main">
@@ -30,9 +26,9 @@ function MyInfo() {
                         <div id="project">
                             <Project />
                         </div>
-                        <div id="contact">
+                        {/* <div id="contact">
                             <Contact />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

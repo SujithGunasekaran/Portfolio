@@ -12,9 +12,9 @@ function Footer() {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="footer-icon-display">
-                                <GitHubIcon style={{ color: 'white' }} className="footer-icon" onClick={() => { window.open('https://github.com/SujithGunasekaran') }} />
-                                <InstagramIcon style={{ color: 'white' }} className="footer-icon" onClick={() => { window.open('https://www.instagram.com/sujith_guna_/') }} />
-                                <LinkedInIcon style={{ color: 'white' }} className="footer-icon" onClick={() => { window.open('https://www.linkedin.com/in/sujith-g-3b21a4140/') }} />
+                                <GitHubIcon className="footer-icon" onClick={() => { window.open('https://github.com/SujithGunasekaran') }} />
+                                <InstagramIcon className="footer-icon" onClick={() => { window.open('https://www.instagram.com/sujith_guna_/') }} />
+                                <LinkedInIcon className="footer-icon" onClick={() => { window.open('https://www.linkedin.com/in/sujith-g-3b21a4140/') }} />
                             </div>
                         </div>
                     </div>

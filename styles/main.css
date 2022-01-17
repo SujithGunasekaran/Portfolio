@@ -1,31 +1,64 @@
 :root{
-    --header-active-bg : #252525;
-    --header-active-shadow : 0px 1px 5px 0px rgb(0 0 0 / 50%);
-    --dark-first : #2B2C2C;
-    --dark-second : #222222;
+    --header-active-bg : #191627;
+    /* --header-active-shadow : 0px 1px 5px 0px rgb(0 0 0 / 50%); */
+    --dark-first : #191627;
+    --dark-second : #29253d;
     --first-white : #FFFFFF;
     --second-white : #9A9AA6;
-    --third-white : #c4c8cc;  
+    --third-white : #BCBAC4;  
     --text-black : black;
-    --card-bg : #333333;
-    --highlight-text : #FEB633;
-    --highlight-border : #FEB633;
-    --highlight-btn-bg : #FEB633;
-    --highlight-bg : #FEB633;
-    --highlight-icon : #FEB633;
+    --card-bg : #211D35;
+    --highlight-text : #8c7ae9;
+    --highlight-border : #6E57E0;
+    --highlight-btn-bg : #6E57E0;
+    --highlight-bg : #6E57E0;
+    --highlight-icon : #6E57E0;
 
     --Montserrat-font : 'Montserrat', sans-serif;
     --inter-font : 'Inter', sans-serif;
     --popin-font : 'Poppins', sans-serif;
+    --font-family-roboto : 'Roboto', sans-serif;
 }
 
 
 .main-info-css
 {
-    background-color: var(--dark-first);
     min-height: 100vh;
     padding : 0px 0px;
     width: 100%;
+}
+
+.main-info-css.dark
+{
+    background-color: var(--dark-first);
+    transition: 0.4s all ease-in-out;
+}
+
+.main-info-css.white
+{
+    --header-active-bg : #ffffff;
+    --dark-first : white;
+    --dark-second : #bebbca;
+    --first-white : #0e0d0d;
+    --second-white : #545455;
+    --third-white : #252525;
+    --card-bg : #d6cff8;
+    --highlight-text : #5b41dd;
+
+    background-color: var(--dark-first);
+    transition: 0.4s all ease-in-out;
+}
+
+.overlay.active
+{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 120;
+    transition: 0.5s all ease-in-out;
 }
 
 ::-webkit-scrollbar {

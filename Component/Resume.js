@@ -27,8 +27,8 @@ export default function Resume() {
                                         educationInfo.EducationInformation.map((instituteInfo, index) => (
                                             <div key={index}>
                                                 <div className={index > 0 ? 'education-type1-display' : 'education-type-display'}>
-                                                    <div className="education-year-btn">{instituteInfo.EducationYear}</div>
-                                                    <div className="education-type-resume">{instituteInfo.EducationType}</div>
+                                                    <div className="education-year-btn"></div>
+                                                    <div className="education-type-resume">{instituteInfo.EducationType} - {instituteInfo.EducationYear}</div>
                                                 </div>
                                                 {
                                                     instituteInfo.EducationDetails.map((mystudyInfo, index) => (
@@ -58,13 +58,12 @@ export default function Resume() {
                                         experienceInfo.WorkDetails.map((workDetail, index) => (
                                             <div key={index}>
                                                 <div className={index > 0 ? 'education-type1-display' : 'education-type-display'}>
-                                                    <div className="education-year-btn">{workDetail.WorkingYear}</div>
-                                                    <div className="education-type-resume">{workDetail.WorkType}</div>
+                                                    <div className="education-year-btn"></div>
+                                                    <div className="education-type-resume">{workDetail.WorkType} : {workDetail.WorkingYear}</div>
                                                 </div>
                                                 <div className="education-details" key={index}>
                                                     <div className="education-clg-name-resume">{workDetail.WorkOfficeName}</div>
                                                     <div className="education-clg-degeree-resume">{workDetail.WorkDescription}</div>
-                                                    <hr className="hr-resume" />
                                                 </div>
                                             </div>
                                         ))

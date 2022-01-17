@@ -6,6 +6,7 @@
 }
 .myinfo-letter-container
 {
+    margin: 0px 0px;
     padding-top: 10px;
     width : 100%;
 }
@@ -21,10 +22,10 @@
 .myinfo-letter-heading
 {
     color : var(--first-white);
-    font-weight: 600;
-    letter-spacing: 0.070rem;
+    font-weight: 700;
+    letter-spacing: 0.035rem;
     word-spacing: 1px;
-    font-size: clamp(40px, 8vw, 80px);
+    font-size: clamp(1.5rem, 10vw, 2.2rem);
     transition: 0.5s all ease-in-out;
 }
 .myinfo-letter-quote
@@ -44,15 +45,9 @@
     width : 130px;
     height : 8px;
 }
-.myinfo-letter-coding
+.myinfo-image
 {
-    padding: 15px 0px;
-    color : rgb(215, 218, 219);
-    font-size: 15px;
-    font-style: italic;
-    word-spacing: 1px;
-    font-family: 'Poppins', sans-serif;
-    transition: 0.5s all ease-in-out;
+    margin-left: 50px;
 }
 .myinfo-letter-about
 {
@@ -64,8 +59,8 @@
     font-weight: 400;
     word-spacing: 1px;
     max-width: 700px;
-    font-family: var(--inter-font);
-    transition: 0.5s all ease-in-out;
+    font-family: var(--font-family-roboto);
+    transition: 0.4s all ease-in-out;
 } 
 
 .myinfo-font-icon-display

@@ -13,6 +13,7 @@
 .footer-icon
 {
     margin-right: 25px;
+    color: var(--first-white);
     font-size: 55px !important;
     transform: scale(0.5);
     transition: 0.5s all ease-in-out !important;
@@ -27,7 +28,7 @@
 {
     text-align: center;
     padding : 25px 0px 10px 0px;
-    color: #b4b3b3;
+    color: var(--third-white);
     font-size: 1rem;
     letter-spacing: 0.040rem;
     word-spacing: 1px;

@@ -1,11 +1,12 @@
 .resume-container
 {
-    margin : 90px 0px 30px 0px;
+    margin : 30px 0px 30px 0px;
     width : 100%;
     transition: 0.5s all ease-in-out;
 }
 .resume-heading
 {
+    padding: 95px 0px 0px 0px;
     color : var(--first-white);
     font-weight: 700;
     letter-spacing: 0.060rem;
@@ -41,19 +42,13 @@
 {
     margin-top: 40px;
     letter-spacing: 0.4px;
-    font-family: var(--inter-font);
+    font-family: var(--font-family-roboto);
     font-size: 1.5rem;
     color : var(--third-white);
     line-height: 2.1rem;
     font-weight: 600;
 }
-/* .education-name-line
-{
-    margin-top: 8px;
-    margin-left: 1px;
-    border : 1px solid #61dafb;
-    width : 45px;
-} */
+
 .education-type-display
 {
     margin-top: 60px;
@@ -71,19 +66,21 @@
     display: inline-block;
     border: 1px solid var(--highlight-border);
     background-color: var(--highlight-btn-bg);
-    padding : 2px 14px;
+    width: 30px;
+    height: 30px;
     text-align: center;
     font-size: .9rem;
-    color : var(--text-black);
-    font-weight: 600;
-    letter-spacing: 0.010rem;
+    border-radius: 50%;
+    color : var(--first-white);
+    font-weight: 400;
+    letter-spacing: 0.015rem;
     font-family: var(--inter-font);
 }
 .education-type-resume
 {
     padding-top: 3.4px;
     padding-left: 15px;
-    font-family: var(--inter-font);
+    font-family: var(--font-family-roboto);
     color : var(--second-white);
     font-weight: 400;
     font-size: 14px;
@@ -99,7 +96,7 @@
     letter-spacing: 0.050rem;
     font-weight: 400;
     word-spacing: 1px;
-    font-family: var(--inter-font);
+    font-family: var(--font-family-roboto);
 }
 .education-clg-degeree-resume
 {
@@ -111,7 +108,7 @@
     letter-spacing: 0.060rem;
     font-weight: 400;
     word-spacing: 1px;
-    font-family: var(--inter-font);
+    font-family: var(--font-family-roboto);
 }
 .education-clg-mark-resume
 {
@@ -160,7 +157,7 @@
     letter-spacing: 0.060rem;
     font-weight: 400;
     word-spacing: 1px;
-    font-family: var(--inter-font);
+    font-family: var(--font-family-roboto);
 }
 .coding-skill-container
 {
@@ -188,11 +185,11 @@
 .coding-skill-name
 {
     padding-top : 25px;
-    color : var(--third-white);
+    color : var(--first-white);
     font-size: 1rem;
     line-height: 2rem;
-    letter-spacing: 0.010rem;
-    font-weight: 500;
+    letter-spacing: 0.015rem;
+    font-weight: 400;
     word-spacing: 1px;
     font-family: var(--inter-font);
     transition: 0.5s all ease-in-out;
