@@ -18,6 +18,8 @@ function MyApp({ Component, pageProps }) {
         <meta name="title" content="Sujith Gunasekaran" />
         <meta name="description" content="Personal website" />
         <meta name="keywords" content="Sujith, SujithGunasekaran, SujithGunasekaran vercel, Gunasekaran, personal website" />
+        <link rel="shortcut icon" href="/image/favicon.ico" />
+        <link rel="apple-touch-icon" href="/image/favicon.ico" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://sujithgunasekaran.vercel.app/" />
         <meta property="og:title" content="Sujith Gunasekaran" />

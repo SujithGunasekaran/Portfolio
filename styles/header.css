@@ -26,23 +26,25 @@
 {
     display : flex;
 }
-.header-logo-name
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .header-my-name
 {
-    padding-left: 9px;
-    color: var(--primary-blue);
-    font-size: .980rem;
-    letter-spacing: 0.040rem;
+    color : var(--highlight-text);
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.060rem;
+    font-weight: 400;
     word-spacing: 1px;
-    font-weight: 500;
-    font-family: var(--Montserrat-font);
-    text-transform: uppercase;
-    transition: 0.5s all ease-in-out;
+    font-family: var(--font-family-roboto);
+    transition: 0.4s all ease-in-out;
+}
+.header-my-name .name_large
+{
+    display: block;
+}
+.header-my-name .name_small
+{
+    display: none;
 }
 
 .header-nav-list
@@ -168,5 +170,13 @@
         align-items: center;
     }
     .header-nav-theme-icon { font-size: 1.4rem !important; }
+    .header-my-name .name_large
+{
+    display: none;
+}
+.header-my-name .name_small
+{
+    display: block;
+}
 }
 

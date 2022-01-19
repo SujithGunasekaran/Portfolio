@@ -33,7 +33,7 @@ export default function MyProject() {
                                                 {
                                                     projectInfo.ProjectLink !== 'No' &&
                                                     <a href={projectInfo.ProjectLink} target="_blank" rel="noreference">
-                                                        <i class="fas fa-external-link-alt project-card-top-font-icon2"></i>
+                                                        <i className="fas fa-external-link-alt project-card-top-font-icon2"></i>
                                                     </a>
                                                 }
                                             </div>

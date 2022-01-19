@@ -1,5 +1,4 @@
 import { Fragment, useEffect, useState } from 'react';
-import Image from 'next/image';
 
 export default function Header() {
 
@@ -34,6 +33,7 @@ export default function Header() {
                 const mobileMenuList = document.getElementById('model-list');
                 const mobileMenuItem = mobileMenuList.children;
                 const currentSection = entries[0].target.id;
+
                 for (let i = 0; i < navList.length; i++) {
                     navList[i].classList.remove('active');
                     if (navList[i].dataset.section === currentSection) navList[i].classList.add('active');
@@ -41,7 +41,6 @@ export default function Header() {
                 if (mobileMenuItem) {
                     for (let i = 0; i < mobileMenuItem.length; i++) {
                         const childElement = mobileMenuItem[i].children;
-                        childElement[0].classList.remove('active');
                         if (childElement[0].dataset.section === currentSection) {
                             childElement[0].classList.add('active');
                         }
@@ -49,8 +48,7 @@ export default function Header() {
                 }
             }
         }), {
-            root: null,
-            threshold: 0.30
+            threshold: 0.3
         });
 
         [document.querySelector('#home'), document.querySelector('#about'), document.querySelector('#resume'), document.querySelector('#project')]
@@ -113,11 +111,11 @@ export default function Header() {
             {
                 colorTheme === 'dark' ?
                     <div className="header-nav-item" onClick={() => handleColorTheme('white')}>
-                        <i class="fi fi-rr-sun header-nav-theme-icon"></i>
+                        <i className="fi fi-rr-sun header-nav-theme-icon"></i>
                     </div>
                     :
                     <div className="header-nav-item" onClick={() => handleColorTheme('dark')}>
-                        <i class="fi fi-rr-moon header-nav-theme-icon"></i>
+                        <i className="fi fi-rr-moon header-nav-theme-icon"></i>
                     </div>
             }
         </Fragment>
@@ -132,13 +130,14 @@ export default function Header() {
                         <div className="col-md-12">
                             <div className="header-container-display">
                                 <div className="header-laptop-info">
-                                    <div className="header-logo-name">
-                                        <Image src={'/assert/favicon_io/desktop_icon.png'} width={46} height={46} alt="SujithGunasekaran" />
+                                    <div className="header-my-name">
+                                        <div className='name_large'>Sujith Gunasekaran</div>
+                                        <div className='name_small'>Sujith G</div>
                                     </div>
                                 </div>
                                 <div className="header-mobile-container">
                                     <div id="menu-icon" >
-                                        <i class="fi fi-rr-menu-burger header-mobile-menu-icon"></i>
+                                        <i className="fi fi-rr-menu-burger header-mobile-menu-icon"></i>
                                     </div>
                                     {renderThemeElement()}
                                 </div>
@@ -148,17 +147,6 @@ export default function Header() {
                                     <div data-section="resume" className="header-nav-item">Experience</div>
                                     <div data-section="project" className="header-nav-item">Projects</div>
                                     {renderThemeElement()}
-                                    {/* {
-                                        colorTheme === 'dark' ?
-                                            <div className="header-nav-item" onClick={() => handleColorTheme('white')}>
-                                                <i class="fi fi-rr-sun header-nav-theme-icon"></i>
-                                            </div>
-                                            :
-                                            <div className="header-nav-item" onClick={() => handleColorTheme('dark')}>
-                                                <i class="fi fi-rr-moon header-nav-theme-icon"></i>
-                                            </div>
-                                    } */}
-                                    {/* <div data-section="contact" className="header-nav-item">Contact Me</div> */}
                                 </div>
                             </div>
                         </div>
@@ -169,32 +157,32 @@ export default function Header() {
                     <div id="model-container" className={`header-mobile-menu-container`}>
                         <div className='model-header'>
                             <div id="close-icon" className="header-mobile-container">
-                                <i class="fi fi-rr-cross header-mobile-menu-icon close"></i>
+                                <i className="fi fi-rr-cross header-mobile-menu-icon close"></i>
                             </div>
                         </div>
                         <div id="model-list" className='model-list'>
                             <div className='model-item'>
                                 <div data-section="home" className='item'>
-                                    <i class="fi fi-rr-home"></i>
+                                    <i className="fi fi-rr-home"></i>
                                     <span className="name">Home</span>
                                 </div>
                             </div>
                             <div className='model-item'>
                                 <div data-section="about" className='item'>
-                                    <i class="fi fi-rr-user"></i>
+                                    <i className="fi fi-rr-user"></i>
                                     <span className="name">About</span>
                                 </div>
                             </div>
                             <div className='model-item'>
                                 <div data-section="resume" className='item'>
-                                    <i class="fi fi-rr-graduation-cap"></i>
+                                    <i className="fi fi-rr-graduation-cap"></i>
                                     <span className="name">Experience</span>
                                 </div>
                             </div>
                             <div className='model-item'>
                                 <div data-section="project" className='item'>
-                                    <i class="fi fi-rr-document"></i>
-                                    <span className="name">Profile</span>
+                                    <i className="fi fi-rr-document"></i>
+                                    <span className="name">Projects</span>
                                 </div>
                             </div>
                         </div>
