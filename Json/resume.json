@@ -44,8 +44,14 @@
             "Heading": "Work Experience",
             "WorkDetails": [
                 {
-                    "WorkingYear": "2020 - Present",
-                    "WorkType": "Associate Software Engineer",
+                    "WorkingYear": "2022(May) - Present",
+                    "WorkType": "Software Engineer - Frontend",
+                    "WorkOfficeName": "Freshworks",
+                    "WorkDescription": "As Part of the core Platform team, We enable the app development place, Where developer can apple to develop the application to any of the freshworks product with the help of our features. Tech Stack : Javascript, Vue.js, Nuxt.js, Node.js"
+                },
+                {
+                    "WorkingYear": "2020(June) - 2022(May)",
+                    "WorkType": "Software Engineer",
                     "WorkOfficeName": "Solartis Technology PVT",
                     "WorkDescription": "Saas Enabler : This is a platform tool to automate UI Development which highly reduced developer's process. As part of Development team responsible for creating reusable component and fixed bugs in both front end and back end. TECH STACk : React.js with Redux, Express.js, Mysql"
                 }
