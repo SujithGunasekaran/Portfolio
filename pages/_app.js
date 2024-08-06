@@ -13,7 +13,6 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
-        <html lang='en' />
         <meta charSet="utf-8" />
         <title>Sujith Gunasekaran</title>
         <meta name="title" content="Sujith Gunasekaran" />
