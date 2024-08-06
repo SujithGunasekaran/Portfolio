@@ -49,7 +49,6 @@ export default function Header() {
                 const mobileMenuList = document.getElementById('model-list');
                 const mobileMenuItem = mobileMenuList.children;
                 const currentSection = entries[0].target.id;
-                console.log('before - 1', currentSection);
                 for (let i = 0; i < navList.length; i++) {
                     const section = navList[i].dataset.section;
                     if (section === currentSection) {
@@ -61,7 +60,6 @@ export default function Header() {
                         const childElement = mobileMenuItem[i].children;
                         const section = childElement[0].dataset.section;
                         if (section === currentSection) {
-                            console.log('active', section);
                             setActiveSection(section);
                         }
                     }
