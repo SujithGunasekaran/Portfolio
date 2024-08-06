@@ -8,13 +8,13 @@ export default function Resume() {
     return (
         <div>
             <div className="resume-container">
-                <div className="row" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                <div className="row">
                     <div className="col-md-12">
                         <div className="resume-heading">Education and Work Experience</div>
                         <div className="resume-heading-line"></div>
                     </div>
                 </div>
-                <div className="row" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                <div className="row">
                     <div className="col-md-6">
                         {
                             ResumeDetails.Education.map((educationInfo, index) => (
@@ -73,7 +73,7 @@ export default function Resume() {
                         }
                     </div>
                 </div>
-                <div className="row" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                <div className="row">
                     <div className="col-md-12">
                         <div className="coding-skill-head-resume">Tech Stacks and Tools</div>
                         <div className="education-name-line"></div>
@@ -81,49 +81,49 @@ export default function Resume() {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-3" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <div className="col-md-3">
                         <div className="coding-skill-container">
                             <div className="coding-skill-logo"><FaHtml5 /></div>
                             <div className="coding-skill-name">HTML, CSS</div>
                         </div>
                     </div>
-                    <div className="col-md-3" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <div className="col-md-3">
                         <div className="coding-skill-container">
                             <div className="coding-skill-logo"><SiJavascript /></div>
                             <div className="coding-skill-name">Javascript</div>
                         </div>
                     </div>
-                    <div className="col-md-3" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <div className="col-md-3">
                         <div className="coding-skill-container">
                             <div className="coding-skill-logo"><SiReact /></div>
                             <div className="coding-skill-name">React.js</div>
                         </div>
                     </div>
-                    <div className="col-md-3" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <div className="col-md-3">
                         <div className="coding-skill-container">
                             <div className="coding-skill-logo"><DiJavascript1 /></div>
                             <div className="coding-skill-name">Express.js</div>
                         </div>
                     </div>
-                    <div className="col-md-3" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <div className="col-md-3">
                         <div className="coding-skill-container">
                             <div className="coding-skill-logo"><IoLogoNodejs /></div>
                             <div className="coding-skill-name">Node.js</div>
                         </div>
                     </div>
-                    <div className="col-md-3" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <div className="col-md-3">
                         <div className="coding-skill-container">
                             <div className="coding-skill-logo"><SiMysql /></div>
                             <div className="coding-skill-name">MySql</div>
                         </div>
                     </div>
-                    <div className="col-md-3" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <div className="col-md-3">
                         <div className="coding-skill-container">
                             <div className="coding-skill-logo"><DiMongodb /></div>
                             <div className="coding-skill-name">mongodb</div>
                         </div>
                     </div>
-                    <div className="col-md-3" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <div className="col-md-3">
                         <div className="coding-skill-container">
                             <div className="coding-skill-logo"><DiJavascript1 /></div>
                             <div className="coding-skill-name">Next.js</div>

@@ -1,58 +1,56 @@
-:root{
-    --header-active-bg : #191627;
+:root {
+    --header-active-bg: #191627;
     /* --header-active-shadow : 0px 1px 5px 0px rgb(0 0 0 / 50%); */
-    --dark-first : #191627;
-    --dark-second : #29253d;
-    --first-white : #FFFFFF;
-    --second-white : #9A9AA6;
-    --third-white : #BCBAC4;  
-    --text-black : black;
-    --card-bg : #211D35;
-    --highlight-text : #8c7ae9;
-    --highlight-border : #6E57E0;
-    --highlight-btn-bg : #6E57E0;
-    --highlight-bg : #6E57E0;
-    --highlight-icon : #6E57E0;
-    --scroll-bar-bg : #757575;
+    --dark-first: #191627;
+    --dark-second: #29253d;
+    --first-white: #FFFFFF;
+    --btn-color: #FFFFFF;
+    --second-white: #9A9AA6;
+    --third-white: #BCBAC4;
+    --text-black: black;
+    --card-bg: #211D35;
+    --highlight-text: #8c7ae9;
+    --highlight-border: #6E57E0;
+    --highlight-btn-bg: #6E57E0;
+    --highlight-bg: #6E57E0;
+    --highlight-icon: #6E57E0;
+    --scroll-bar-bg: #757575;
 
-    --Montserrat-font : 'Montserrat', sans-serif;
-    --inter-font : 'Inter', sans-serif;
-    --popin-font : 'Poppins', sans-serif;
-    --font-family-roboto : 'Roboto', sans-serif;
+    --Montserrat-font: 'Montserrat', sans-serif;
+    --inter-font: 'Inter', sans-serif;
+    --popin-font: 'Poppins', sans-serif;
+    --font-family-roboto: 'Roboto', sans-serif;
 }
 
 
-.main-info-css
-{
+.main-info-css {
     min-height: 100vh;
-    padding : 0px 0px;
+    padding: 0px 0px;
     width: 100%;
 }
 
-.main-info-css.dark
-{
+.main-info-css.dark {
     background-color: var(--dark-first);
     transition: 0.4s all ease-in-out;
 }
 
-.main-info-css.white
-{
-    --header-active-bg : #ffffff;
-    --dark-first : white;
-    --dark-second : #bebbca;
-    --first-white : #0e0d0d;
-    --second-white : #545455;
-    --third-white : #252525;
-    --card-bg : #d6cff8;
-    --highlight-text : #5b41dd;
-    --scroll-bar-bg : #e5e2e2;
+.main-info-css.white {
+    --header-active-bg: #ffffff;
+    --dark-first: white;
+    --btn-color: #FFFFFF;
+    --dark-second: #bebbca;
+    --first-white: #0e0d0d;
+    --second-white: #545455;
+    --third-white: #252525;
+    --card-bg: #d6cff8;
+    --highlight-text: #5b41dd;
+    --scroll-bar-bg: #e5e2e2;
 
     background-color: var(--dark-first);
     transition: 0.4s all ease-in-out;
 }
 
-.overlay.active
-{
+.overlay.active {
     position: fixed;
     top: 0px;
     left: 0;
@@ -68,18 +66,20 @@
     border-radius: 0px;
     background-color: var(--dark-first);
 }
+
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     -webkit-border-radius: 10px;
-    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
     background: var(--scroll-bar-bg);
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
-    box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');

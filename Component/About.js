@@ -4,7 +4,7 @@ export default function About() {
     return (
         <div>
             <div className="about-container">
-                <div className="row" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                <div className="row">
                     <div className="col-md-12">
                         <div className="about-hero-container">
                             <div className="about-heading">{Home.myActivityHeading}</div>
@@ -12,7 +12,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                <div className="row" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                <div className="row">
                     <div className="col-md-12">
                         <div className="about-info">{Home.myActivityInfoOne}</div>
                         <div className="about-info">{Home.myActivityInfoTwo}</div>

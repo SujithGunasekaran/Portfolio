@@ -1,5 +1,5 @@
 import About from '../Component/About';
-import Resume from '../Component/Resume';
+import Experience from './Experience';
 import Project from '../Component/Project';
 import Intro from '../Component/Intro';
 
@@ -20,15 +20,12 @@ function MyInfo() {
                         <div id="about">
                             <About />
                         </div>
-                        <div id="resume">
-                            <Resume />
+                        <div id="experience">
+                            <Experience />
                         </div>
                         <div id="project">
                             <Project />
                         </div>
-                        {/* <div id="contact">
-                            <Contact />
-                        </div> */}
                     </div>
                 </div>
             </div>

@@ -6,7 +6,7 @@ const Intro = () => {
     const { Home } = myInfo;
 
     return (
-        <div className="myinfo-letter-container">
+        <section className="myinfo-letter-container">
             <div className='row' style={{ alignItems: 'center' }}>
                 <div className='col-md-6'>
                     <h1 className="myinfo-letter-heading">Hi, I'm {Home.myName}</h1>
@@ -22,11 +22,19 @@ const Intro = () => {
                     </div>
                 </div>
                 <div className='col-md-6'>
-                    <Image src={'/assert/coding.svg'} width={500} height={500} />
+                    <Image
+                        src={'/assert/coding.svg'}
+                        alt='hero-image'
+                        className='hero-image'
+                        priority={true}
+                        width={0}
+                        height={0}
+                        style={{ width: '100%', height: 'auto' }}
+                    />
                 </div>
             </div>
 
-        </div>
+        </section>
     )
 
 }

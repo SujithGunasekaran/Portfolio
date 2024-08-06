@@ -45,15 +45,15 @@
             "WorkDetails": [
                 {
                     "WorkingYear": "2022(May) - Present",
-                    "WorkType": "Software Engineer - Frontend",
+                    "WorkType": "Senior Software Engineer - Frontend",
                     "WorkOfficeName": "Freshworks",
-                    "WorkDescription": "As Part of the core Platform team, We enable the app development place, Where developer can apple to develop the application to any of the freshworks product with the help of our features. Tech Stack : Javascript, Vue.js, Nuxt.js, Node.js"
+                    "WorkDescription": "Worked on various projects along cross-functional collaboration with backend engineers and product designers. Created the “Meta Framework” POC, which enhance the developer efficiency and simplifying application development for the Freshworks products using the FDK. Led the UI development for the marketplace and developer portal, delivering the high-quality user interfaces. Enhanced in-product Gallery performance by optimising load times, Resulting in faster performance and an improved user experience"
                 },
                 {
                     "WorkingYear": "2020(June) - 2022(May)",
                     "WorkType": "Software Engineer",
                     "WorkOfficeName": "Solartis Technology PVT",
-                    "WorkDescription": "Saas Enabler : This is a platform tool to automate UI Development which highly reduced developer's process. As part of Development team responsible for creating reusable component and fixed bugs in both front end and back end. TECH STACk : React.js with Redux, Express.js, Mysql"
+                    "WorkDescription": "Developed and managed complete Frontend part of large scale web application (Insurance Domain) for one of the pioneer customer. Used Reactjs as Frontend framework and react-redux as state management library for development. Build gateway services using express.js to interconnect uiux with microservices and serves result orchestration."
                 }
             ]
         }

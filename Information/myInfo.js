@@ -39,6 +39,29 @@ export const Logo = {
     }
 }
 
+export const navList = [
+    {
+        id: 'home',
+        name: 'home',
+        displayName: 'Home'
+    },
+    {
+        id: 'about',
+        name: 'about',
+        displayName: 'About'
+    },
+    {
+        id: 'experience',
+        name: 'experience',
+        displayName: 'Experience'
+    },
+    {
+        id: 'project',
+        name: 'project',
+        displayName: 'Projects'
+    }
+]
+
 
 export const myInfo = {
     Header: {
@@ -71,7 +94,7 @@ export const myInfo = {
     },
     Home: {
         myName: "Sujith Gunasekaran",
-        myInfo: "I build things for web. I am a software engineer who specializes in building a responsive Website and Web Apps. I love learning new Technologies.",
+        myInfo: "I am a skilled software engineer with a proven ability to create engaging web-based products. My expertise lies in building responsive, scalable, and high-performing applications.",
         myImage: "/assert/Home_my_image.svg",
         mySocialIcon: [
             {
@@ -100,9 +123,8 @@ export const myInfo = {
             myResumeLink: "/resume/my Resume.pdf"
         },
         myActivityHeading: "About Me",
-        myActivityInfoOne: "Hello! My name is Sujith Gunasekaran. I am interested in web development started back in 2020 when I decided to try to clone youtube — turns out to learn new technologies continuously.",
-        myActivityInfoTwo: "Fast-forward to today, and I've had the privilege of building a projects. My main focus these days is building accessible, inclusive products. Building a responsive website front end using React-Redux. I want to contribute to great team. Where I can utilize my training and skills, while making significant contribution to the success of the team",
-        myActivityInfoThree: "Here are a few technologies I've been working with recently:",
+        myActivityInfoOne: "As a collaborative front-end developer, I excel at transforming complex requirements into intuitive user experiences. With a strong problem-solving mindset, I enjoy working with cross-functional teams to deliver high-quality products. I am confident in my ability to contribute to a positive and productive work environment.",
+        myActivityInfoTwo: "I always want to take new challenges and opportunity for my personal and professional development more importantly I will always aim to expand my skills set and take greater responsibilities",
         myActivityTechInfo: [
             {
                 techName: "Javascript"
@@ -227,7 +249,7 @@ export const myInfo = {
                 ProjectDescription: "Free Knowledge sharing platform, Community platform to find and contribute answer to the technical challenges.",
                 ProjectLanguage: "Next.js, graphql, Apollo, mongodb, React.js, Express.js",
                 ProjectGitLink: "https://github.com/SujithGunasekaran",
-                ProjectLink: "https://forumhouse.herokuapp.com/",
+                ProjectLink: "No",
                 ProjectLinkBtnDisplayName: "View Website"
             },
             {
@@ -235,7 +257,7 @@ export const myInfo = {
                 ProjectDescription: "devBlog is an blog post web app, User can publish their blogs. user can able to like and save post for later purpose.",
                 ProjectLanguage: "Javascript, Next.js, Express.js, mongodb, Apollo-Graphql",
                 ProjectGitLink: "https://github.com/SujithGunasekaran",
-                ProjectLink: "https://devsblog.herokuapp.com/",
+                ProjectLink: "No",
                 ProjectLinkBtnDisplayName: "View Website"
             },
             {
@@ -255,8 +277,8 @@ export const myInfo = {
                 ProjectLinkBtnDisplayName: "View Website"
             },
             {
-                ProjectName: "JSON Difference",
-                ProjectDescription: "JSON Difference. In JSON difference tool we can compare Two JSON data it will show the difference and also difference will be highlighted and shown to the user.",
+                ProjectName: "React Components",
+                ProjectDescription: "Collections of react components, where user can download it has a npm packages and can be used in their projects.",
                 ProjectLanguage: "Javascript, React.js",
                 ProjectGitLink: "https://github.com/SujithGunasekaran",
                 ProjectLink: "No",

@@ -1,6 +1,4 @@
-import GitHubIcon from '@material-ui/icons/GitHub';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { myInfo } from '../Information/myInfo';
 
 function Footer() {
@@ -12,9 +10,9 @@ function Footer() {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="footer-icon-display">
-                                <GitHubIcon className="footer-icon" onClick={() => { window.open('https://github.com/SujithGunasekaran') }} />
-                                <InstagramIcon className="footer-icon" onClick={() => { window.open('https://www.instagram.com/sujith_guna_/') }} />
-                                <LinkedInIcon className="footer-icon" onClick={() => { window.open('https://www.linkedin.com/in/sujith-g-3b21a4140/') }} />
+                                <FaGithub className="footer-icon" onClick={() => { window.open('https://github.com/SujithGunasekaran') }} />
+                                <FaInstagram className="footer-icon" onClick={() => { window.open('https://www.instagram.com/sujith_guna_/') }} />
+                                <FaLinkedin className="footer-icon" onClick={() => { window.open('https://www.linkedin.com/in/sujith-g-3b21a4140/') }} />
                             </div>
                         </div>
                     </div>
