@@ -10,7 +10,7 @@ export default function Resume() {
             <div className="resume-container">
                 <div className="row">
                     <div className="col-md-12">
-                        <div className="resume-heading">Education and Work Experience</div>
+                        <h2 className="resume-heading">Education and Work Experience</h2>
                         <div className="resume-heading-line"></div>
                     </div>
                 </div>
@@ -19,22 +19,22 @@ export default function Resume() {
                         {
                             ResumeDetails.Education.map((educationInfo, index) => (
                                 <div className="education-list" key={index}>
-                                    <div className="education-name-resume">
+                                    <h3 className="education-name-resume">
                                         {educationInfo.EducationHeading}
-                                    </div>
+                                    </h3>
                                     <div className="education-name-line"></div>
                                     {
                                         educationInfo.EducationInformation.map((instituteInfo, index) => (
                                             <div key={index}>
                                                 <div className={index > 0 ? 'education-type1-display' : 'education-type-display'}>
                                                     <div className="education-year-btn"></div>
-                                                    <div className="education-type-resume">{instituteInfo.EducationType} - {instituteInfo.EducationYear}</div>
+                                                    <p className="education-type-resume">{instituteInfo.EducationType} - {instituteInfo.EducationYear}</p>
                                                 </div>
                                                 {
                                                     instituteInfo.EducationDetails.map((mystudyInfo, index) => (
                                                         <div className="education-details" key={index}>
-                                                            <div className="education-clg-name-resume">{mystudyInfo.InstituteName}</div>
-                                                            <div className="education-clg-degeree-resume">{mystudyInfo.InstituteCourse}</div>
+                                                            <h4 className="education-clg-name-resume">{mystudyInfo.InstituteName}</h4>
+                                                            <p className="education-clg-degeree-resume">{mystudyInfo.InstituteCourse}</p>
                                                             <div className="hr-resume" />
                                                         </div>
                                                     ))
@@ -50,20 +50,20 @@ export default function Resume() {
                         {
                             ResumeDetails.Experience.map((experienceInfo, index) => (
                                 <div className="education-list" key={index}>
-                                    <div className="education-name-resume">
+                                    <h3 className="education-name-resume">
                                         {experienceInfo.Heading}
-                                    </div>
+                                    </h3>
                                     <div className="education-name-line"></div>
                                     {
                                         experienceInfo.WorkDetails.map((workDetail, index) => (
                                             <div key={index}>
                                                 <div className={index > 0 ? 'education-type1-display' : 'education-type-display'}>
                                                     <div className="education-year-btn"></div>
-                                                    <div className="education-type-resume">{workDetail.WorkType} : {workDetail.WorkingYear}</div>
+                                                    <p className="education-type-resume">{workDetail.WorkType} : {workDetail.WorkingYear}</p>
                                                 </div>
                                                 <div className="education-details" key={index}>
-                                                    <div className="education-clg-name-resume">{workDetail.WorkOfficeName}</div>
-                                                    <div className="education-clg-degeree-resume">{workDetail.WorkDescription}</div>
+                                                    <h4 className="education-clg-name-resume">{workDetail.WorkOfficeName}</h4>
+                                                    <p className="education-clg-degeree-resume">{workDetail.WorkDescription}</p>
                                                 </div>
                                             </div>
                                         ))
@@ -75,58 +75,58 @@ export default function Resume() {
                 </div>
                 <div className="row">
                     <div className="col-md-12">
-                        <div className="coding-skill-head-resume">Tech Stacks and Tools</div>
+                        <h3 className="coding-skill-head-resume">Tech Stacks and Tools</h3>
                         <div className="education-name-line"></div>
-                        <div className="coding-skill-head-subheading">Programming languages and tools that I know and usually used when making a project.</div>
+                        <p className="coding-skill-head-subheading">Programming languages and tools that I know and usually used when making a project.</p>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-3">
                         <div className="coding-skill-container">
                             <div className="coding-skill-logo"><FaHtml5 /></div>
-                            <div className="coding-skill-name">HTML, CSS</div>
+                            <h4 className="coding-skill-name">HTML, CSS</h4>
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="coding-skill-container">
                             <div className="coding-skill-logo"><SiJavascript /></div>
-                            <div className="coding-skill-name">Javascript</div>
+                            <h4 className="coding-skill-name">Javascript</h4>
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="coding-skill-container">
                             <div className="coding-skill-logo"><SiReact /></div>
-                            <div className="coding-skill-name">React.js</div>
+                            <h4 className="coding-skill-name">React.js</h4>
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="coding-skill-container">
                             <div className="coding-skill-logo"><DiJavascript1 /></div>
-                            <div className="coding-skill-name">Express.js</div>
+                            <h4 className="coding-skill-name">Express.js</h4>
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="coding-skill-container">
                             <div className="coding-skill-logo"><IoLogoNodejs /></div>
-                            <div className="coding-skill-name">Node.js</div>
+                            <h4 className="coding-skill-name">Node.js</h4>
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="coding-skill-container">
                             <div className="coding-skill-logo"><SiMysql /></div>
-                            <div className="coding-skill-name">MySql</div>
+                            <h4 className="coding-skill-name">MySql</h4>
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="coding-skill-container">
                             <div className="coding-skill-logo"><DiMongodb /></div>
-                            <div className="coding-skill-name">mongodb</div>
+                            <h4 className="coding-skill-name">mongodb</h4>
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="coding-skill-container">
                             <div className="coding-skill-logo"><DiJavascript1 /></div>
-                            <div className="coding-skill-name">Next.js</div>
+                            <h4 className="coding-skill-name">Next.js</h4>
                         </div>
                     </div>
                 </div>

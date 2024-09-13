@@ -75,6 +75,7 @@
 }
 
 .education-type-resume {
+    margin: 0px;
     padding-top: 3.4px;
     padding-left: 15px;
     font-family: var(--font-family-roboto);

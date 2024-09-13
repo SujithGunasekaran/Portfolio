@@ -1,6 +1,7 @@
 import About from '../Component/About';
 import Experience from './Experience';
 import Project from '../Component/Project';
+import Blog from '../Component/Blog';
 import Intro from '../Component/Intro';
 
 function MyInfo() {
@@ -17,15 +18,18 @@ function MyInfo() {
                 </div>
                 <div className="row">
                     <div className="col-md-12">
-                        <div id="about">
+                        <section id="about">
                             <About />
-                        </div>
-                        <div id="experience">
+                        </section>
+                        <section id="experience">
                             <Experience />
-                        </div>
-                        <div id="project">
+                        </section>
+                        <section id="project">
                             <Project />
-                        </div>
+                        </section>
+                        <section id="blog">
+                            <Blog />
+                        </section>
                     </div>
                 </div>
             </div>

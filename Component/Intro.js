@@ -10,7 +10,7 @@ const Intro = () => {
             <div className='row' style={{ alignItems: 'center' }}>
                 <div className='col-md-6'>
                     <h1 className="myinfo-letter-heading">Hi, I'm {Home.myName}</h1>
-                    <div className="myinfo-letter-about">{Home.myInfo}</div>
+                    <p className="myinfo-letter-about">{Home.myInfo}</p>
                     <div className="row">
                         <div className="col-md-6">
                             <div className="myinfo-resume-btn-display">

@@ -69,7 +69,7 @@ export default function Header() {
             threshold: 0.3
         });
 
-        [document.querySelector('#home'), document.querySelector('#about'), document.querySelector('#experience'), document.querySelector('#project')]
+        [document.querySelector('#home'), document.querySelector('#about'), document.querySelector('#experience'), document.querySelector('#project'), document.querySelector('#blog')]
             .forEach(section => {
                 sectionObserver.observe(section);
             })
@@ -176,6 +176,15 @@ export default function Header() {
                                     className={`item ${activeSection === 'project' ? 'active' : ''}`}
                                 >
                                     <span className="name">Projects</span>
+                                </div>
+                            </div>
+                            <div className='model-item'>
+                                <div
+                                    onClick={() => handleNavClick('blog')}
+                                    data-section="blog"
+                                    className={`item ${activeSection === 'blog' ? 'active' : ''}`}
+                                >
+                                    <span className="name">Blog</span>
                                 </div>
                             </div>
                         </div>

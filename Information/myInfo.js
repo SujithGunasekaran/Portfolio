@@ -59,6 +59,11 @@ export const navList = [
         id: 'project',
         name: 'project',
         displayName: 'Projects'
+    },
+    {
+        id: 'blog',
+        name: 'blog',
+        displayName: 'Blog'
     }
 ]
 
@@ -295,6 +300,19 @@ export const myInfo = {
         ],
         ProjectBtnName: "More Projects",
         ProjectBtnLink: "https://github.com/SujithGunasekaran"
+    },
+    Blog: {
+        BlogHeading: "Blog",
+        BlogList: [
+            {
+                BlogName: "Progressive and lazy loading images in react.js",
+                BlogDescription: "This blog explain about how lazy and progressive loading image improve performance and the implementation part",
+                BlogTags: "Javascript, React.js, Performance",
+                BlogLink: "https://medium.com/me/stats/post/4bff31a66785",
+                alt: 'medium-link-1',
+            },
+
+        ]
     },
     Contact: {
         ContactHeading: "Contact Me",

@@ -24,7 +24,7 @@
     font-weight: 700;
     letter-spacing: 0.035rem;
     word-spacing: 1px;
-    font-size: clamp(1.5rem, 10vw, 2.2rem);
+    font-size: clamp(3.2rem, 10vw, 2.2rem);
     transition: 0.5s all ease-in-out;
 }
 
