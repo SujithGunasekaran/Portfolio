@@ -11,7 +11,7 @@ const Intro = () => {
                 <div className='col-md-6'>
                     <h1 className="myinfo-letter-heading">Hi, I'm {Home.myName}</h1>
                     <p className="myinfo-letter-about">{Home.myInfo}</p>
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="col-md-6">
                             <div className="myinfo-resume-btn-display">
                                 <button className="myinfo-resume-btn">
@@ -19,7 +19,7 @@ const Intro = () => {
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='col-md-6'>
                     <Image

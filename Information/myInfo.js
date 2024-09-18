@@ -99,7 +99,7 @@ export const myInfo = {
     },
     Home: {
         myName: "Sujith Gunasekaran",
-        myInfo: "I am a skilled software engineer with a proven ability to create engaging web-based products. My expertise lies in building responsive, scalable, and high-performing applications.",
+        myInfo: "As a front-end developer, I enjoy turning project requirements into simple, easy-to-use features and applications. I'm excited about contributing to a positive and productive work environment where we can achieve our goals together.",
         myImage: "/assert/Home_my_image.svg",
         mySocialIcon: [
             {
@@ -283,7 +283,7 @@ export const myInfo = {
             },
             {
                 ProjectName: "React Components",
-                ProjectDescription: "Collections of react components, where user can download it has a npm packages and can be used in their projects.",
+                ProjectDescription: "Collections of react components, where user can download it has a npm packages and can be used in our projects.",
                 ProjectLanguage: "Javascript, React.js",
                 ProjectGitLink: "https://github.com/SujithGunasekaran",
                 ProjectLink: "No",
