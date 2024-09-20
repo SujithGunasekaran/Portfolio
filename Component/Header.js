@@ -69,7 +69,7 @@ export default function Header() {
             threshold: 0.3
         });
 
-        [document.querySelector('#home'), document.querySelector('#about'), document.querySelector('#experience'), document.querySelector('#project'), document.querySelector('#blog')]
+        [document.querySelector('#home'), document.querySelector('#experience'), document.querySelector('#project'), document.querySelector('#blog')]
             .forEach(section => {
                 sectionObserver.observe(section);
             })
@@ -151,7 +151,7 @@ export default function Header() {
                                     <span className="name">Home</span>
                                 </div>
                             </div>
-                            <div className='model-item'>
+                            {/* <div className='model-item'>
                                 <div
                                     onClick={() => handleNavClick('about')}
                                     data-section="about"
@@ -159,7 +159,7 @@ export default function Header() {
                                 >
                                     <span className="name">About</span>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className='model-item'>
                                 <div
                                     onClick={() => handleNavClick('experience')}

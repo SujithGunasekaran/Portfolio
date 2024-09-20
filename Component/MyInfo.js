@@ -18,9 +18,9 @@ function MyInfo() {
                 </div>
                 <div className="row">
                     <div className="col-md-12">
-                        <section id="about">
+                        {/* <section id="about">
                             <About />
-                        </section>
+                        </section> */}
                         <section id="experience">
                             <Experience />
                         </section>

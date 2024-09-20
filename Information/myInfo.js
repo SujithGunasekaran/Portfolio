@@ -45,11 +45,11 @@ export const navList = [
         name: 'home',
         displayName: 'Home'
     },
-    {
-        id: 'about',
-        name: 'about',
-        displayName: 'About'
-    },
+    // {
+    //     id: 'about',
+    //     name: 'about',
+    //     displayName: 'About'
+    // },
     {
         id: 'experience',
         name: 'experience',
