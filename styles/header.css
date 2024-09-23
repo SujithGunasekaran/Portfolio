@@ -39,6 +39,8 @@
 }
 
 .header-my-name .name_small {
+    font-size: 18px;
+    margin: 0px;
     display: none;
 }
 
