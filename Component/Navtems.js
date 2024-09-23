@@ -2,20 +2,19 @@ const NavItems = (props) => {
 
     // props
     const {
-        activeSection,
         sectionName,
         displayName,
-        handleNavClick
+        className
     } = props;
 
     return (
-        <div
-            onClick={() => handleNavClick(sectionName)}
+        <a
+            href={`#${sectionName}`}
             data-section={sectionName}
-            className={`header-nav-item ${activeSection === sectionName ? 'active' : ''}`}
+            className={className}
         >
             {displayName}
-        </div>
+        </a>
     )
 }
 

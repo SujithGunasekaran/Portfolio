@@ -90,7 +90,7 @@
 .project-card-description {
     padding: 10px 0px 5px 0px;
     color: var(--third-white);
-    font-size: .910rem;
+    font-size: 1rem;
     line-height: 2rem;
     letter-spacing: 0.050rem;
     font-weight: 400;
@@ -157,15 +157,17 @@
 
 .project-card-more-website-btn {
     margin: 45px 6px 15px 6px;
+    display: block;
     border: 1px solid var(--highlight-border);
-    width: 97%;
     padding: 12px 15px;
     border-radius: 6px;
     background-color: transparent;
+    text-decoration: none;
+    text-align: center;
     color: var(--btn-color);
     font-family: var(--inter-font);
     background-color: var(--highlight-btn-bg);
-    font-size: 1.1rem;
+    font-size: 1.115rem;
     font-weight: 600;
     letter-spacing: 0.020rem;
     transition: 0.5s all ease-in-out;

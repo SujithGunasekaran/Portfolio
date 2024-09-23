@@ -9,7 +9,7 @@ const Intro = () => {
         <section className="myinfo-letter-container">
             <div className='row' style={{ alignItems: 'center' }}>
                 <div className='col-md-6'>
-                    <h1 className="myinfo-letter-heading">Hi, I'm {Home.myName}</h1>
+                    <h2 className="myinfo-letter-heading">Hi, I'm {Home.myName}</h2>
                     <p className="myinfo-letter-about">{Home.myInfo}</p>
                     {/* <div className="row">
                         <div className="col-md-6">

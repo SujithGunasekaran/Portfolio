@@ -57,7 +57,14 @@ export default function MyProject() {
                         ))
                     }
                     <div className="col-md-3 mx-auto">
-                        <button className="project-card-more-website-btn"><a href={Project.ProjectBtnLink} target="_blank" rel="noreference">{Project.ProjectBtnName}</a></button>
+                        <a
+                            href={Project.ProjectBtnLink}
+                            target="_blank"
+                            rel="noreference"
+                            className="project-card-more-website-btn"
+                        >
+                            {Project.ProjectBtnName}
+                        </a>
                     </div>
                 </div>
             </div>

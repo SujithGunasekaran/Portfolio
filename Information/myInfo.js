@@ -308,7 +308,7 @@ export const myInfo = {
                 BlogName: "Progressive and lazy loading images in react.js",
                 BlogDescription: "This blog explain about how lazy and progressive loading image improve performance and the implementation part",
                 BlogTags: "Javascript, React.js, Performance",
-                BlogLink: "https://medium.com/me/stats/post/4bff31a66785",
+                BlogLink: "https://medium.com/p/4bff31a66785",
                 alt: 'medium-link-1',
             },
 
