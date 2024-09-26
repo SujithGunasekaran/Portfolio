@@ -266,11 +266,11 @@ export const myInfo = {
                 ProjectLinkBtnDisplayName: "View Website"
             },
             {
-                ProjectName: "Warehouse",
-                ProjectDescription: "E-Commerce Web application, Products are listed. By creating account user can store product in cart, To store data I have used mongodb",
-                ProjectLanguage: "Javascript, React.js, Express.js, Node.js, Mongodb",
+                ProjectName: "React E-commerce",
+                ProjectDescription: "This is a comprehensive e-commerce application built with React, providing a seamless shopping experience for users.",
+                ProjectLanguage: "Javascript, React.js, Redux, dummyjson",
                 ProjectGitLink: "https://github.com/SujithGunasekaran",
-                ProjectLink: "No",
+                ProjectLink: "https://react-ecommerce-sable.vercel.app/",
                 ProjectLinkBtnDisplayName: "View Website"
             },
             {

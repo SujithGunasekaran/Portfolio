@@ -42,7 +42,7 @@ export default function MyProject() {
                                                     href={projectInfo.ProjectLink}
                                                     target="_blank"
                                                     rel="noreference"
-                                                    aria-label="Github link"
+                                                    aria-label="External link"
                                                 >
                                                     <FaExternalLinkAlt className='project-card-top-font-icon2' />
                                                 </a>
