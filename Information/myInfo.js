@@ -63,7 +63,7 @@ export const navList = [
     {
         id: 'blog',
         name: 'blog',
-        displayName: 'Blog'
+        displayName: 'Blogs'
     }
 ]
 
@@ -302,7 +302,7 @@ export const myInfo = {
         ProjectBtnLink: "https://github.com/SujithGunasekaran"
     },
     Blog: {
-        BlogHeading: "Blog",
+        BlogHeading: "Blogs",
         BlogList: [
             {
                 BlogName: "Progressive and lazy loading images in react.js",
@@ -311,7 +311,13 @@ export const myInfo = {
                 BlogLink: "https://medium.com/p/4bff31a66785",
                 alt: 'medium-link-1',
             },
-
+            {
+                BlogName: "Throttling in Javascript",
+                BlogDescription: "This blog explain in details about what is Throttling, Why it is used and how we can implement the throttling in javascript",
+                BlogTags: "Javascript, Throttling, Performance",
+                BlogLink: "https://medium.com/@sujithg1999/throttling-in-javascript-fde10f651f94",
+                alt: 'medium-link-2',
+            },
         ]
     },
     Contact: {
