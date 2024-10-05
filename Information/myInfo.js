@@ -318,6 +318,13 @@ export const myInfo = {
                 BlogLink: "https://medium.com/@sujithg1999/throttling-in-javascript-fde10f651f94",
                 alt: 'medium-link-2',
             },
+            {
+                BlogName: "CSS-in-JS pros and cons for modern React Development",
+                BlogDescription: "This blog explain in details about what is CSS-in-JS, pros and cons of using CSS-in-JS and When to use CSS-in-JS",
+                BlogTags: "Javascript, CSS, React.js",
+                BlogLink: "https://medium.com/@sujithg1999/css-in-js-pros-and-cons-for-modern-react-development-3e1cbc329eda",
+                alt: 'medium-link-3',
+            },
         ]
     },
     Contact: {
