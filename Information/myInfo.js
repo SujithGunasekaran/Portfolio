@@ -290,11 +290,11 @@ export const myInfo = {
                 ProjectLinkBtnDisplayName: "View Website"
             },
             {
-                ProjectName: "Song API",
-                ProjectDescription: "This API is used to get song data and anyone can add song data with post method, and also Developed UI to test this API.",
-                ProjectLanguage: "Javascript, Express.js, Mongodb",
+                ProjectName: "React Gif Search",
+                ProjectDescription: "An interactive React GIF search app that lets users explore trending, random, or specific GIFs with features to download, play, or pause animations.",
+                ProjectLanguage: "Typescript, React.js, Gify",
                 ProjectGitLink: "https://github.com/SujithGunasekaran",
-                ProjectLink: "No",
+                ProjectLink: "https://react-gify.vercel.app/",
                 ProjectLinkBtnDisplayName: "View Website"
             }
         ],
