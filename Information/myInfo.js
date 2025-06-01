@@ -45,11 +45,11 @@ export const navList = [
         name: 'home',
         displayName: 'Home'
     },
-    // {
-    //     id: 'about',
-    //     name: 'about',
-    //     displayName: 'About'
-    // },
+    {
+        id: 'about',
+        name: 'about',
+        displayName: 'About'
+    },
     {
         id: 'experience',
         name: 'experience',
@@ -99,104 +99,19 @@ export const myInfo = {
     },
     Home: {
         myName: "Sujith Gunasekaran",
-        myInfo: "As a front-end developer, I enjoy turning project requirements into simple, easy-to-use features and applications. I'm excited about contributing to a positive and productive work environment where we can achieve our goals together.",
+        myInfo: "Senior Software Engineer at Freshworks specializing in frontend development with expertise in React. Passionate about building exceptional digital experiences.",
         myImage: "/assert/Home_my_image.svg",
-        mySocialIcon: [
-            {
-                fontAwesomeIcon: "fab fa-github",
-                fontbackgroundColor: "#333",
-                socailLink: "https://github.com/SujithGunasekaran"
-            },
-            {
-                fontAwesomeIcon: "fab fa-linkedin-in",
-                fontbackgroundColor: "#0e76a8",
-                socailLink: "https://www.linkedin.com/in/sujith-g-3b21a4140/"
-            },
-            {
-                fontAwesomeIcon: "fab fa-twitter",
-                fontbackgroundColor: "#1da1f2",
-                socailLink: "https://twitter.com/home?lang=en"
-            },
-            {
-                fontAwesomeIcon: "fab fa-instagram",
-                fontbackgroundColor: "#e4405f",
-                socailLink: "https://www.instagram.com/sujith_guna_/"
-            }
-        ],
-        myResumeBtn: {
-            myResumeName: "View Resume",
-            myResumeLink: "/resume/my Resume.pdf"
-        },
         myActivityHeading: "About Me",
-        myActivityInfoOne: "As a collaborative front-end developer, I excel at transforming complex requirements into intuitive user experiences. With a strong problem-solving mindset, I enjoy working with cross-functional teams to deliver high-quality products. I am confident in my ability to contribute to a positive and productive work environment.",
-        myActivityInfoTwo: "I always want to take new challenges and opportunity for my personal and professional development more importantly I will always aim to expand my skills set and take greater responsibilities",
-        myActivityTechInfo: [
-            {
-                techName: "Javascript"
-            },
-            {
-                techName: "React.js"
-            },
-            {
-                techName: "Next.js"
-            },
-            {
-                techName: "Express.js"
-            },
-            {
-                techName: "Node.js"
-            },
-            {
-                techName: "HTML, Css"
-            },
-            {
-                techName: "mongodb"
-            }
+        myActivityInfoOne: "Frontend Developer with 5 years of experience, I specialize in creating high-performance, accessible, and visually compelling web applications. My expertise lies in modern JavaScript frameworks and libraries, including React.js, Vue.js, and Next.js, paired with a deep understanding of JavaScript best practices. I bring both proven technical skills and a passion for continuous learning to the table..",
+        myActivityInfoTwo: "What I bring to the team:",
+        myActivityInfoTwoList: [
+            "A commitment to delivering high-quality, scalable, and user-centric solutions.",
+            "Exceptional communication skills to innovative ideas, align with cross-functional teams, and foster collaboration.",
+            "A focus on building applications prioritizing performance, accessibility, and maintainability.",
+            "I'm open to feedback and always looking to get better!",
+            "Supportive mentor who can guide and motivate the team."
         ],
-        myActivity: [
-            {
-                ActivityHeading: "Full Stack Development",
-                ActivityImage: "/assert/Home_frelancer.svg",
-                ActivityLogos: [
-                    Logo.HTML,
-                    Logo.CSS,
-                    Logo.Javascript,
-                    Logo.React,
-                    Logo.Nodejs,
-                    Logo.Sql
-                ],
-                ActivityPoints: [
-                    {
-                        Point: "Building resposive website front end using React-Redux"
-                    },
-                    {
-                        Point: "Creating application backend in Node & Express"
-                    },
-                    {
-                        Point: "Storing Datas in mongodb"
-                    }
-                ]
-            },
-            {
-                ActivityHeading: "Reading Books",
-                ActivityImage: "/assert/Home_reading2.svg",
-                ActivityLogos: [
-                    Logo.Book,
-                    Logo.Economy
-                ],
-                ActivityPoints: [
-                    {
-                        Point: "I will make seperate time for reading books in my life. Apart from my work"
-                    },
-                    {
-                        Point: "I mostly read books based on Economy while reading these type of books i can get knowledge about how to save money, how to Overcome Problems, and many more"
-                    },
-                    {
-                        Point: "My most liked author 'Warren Buffet'"
-                    }
-                ]
-            },
-        ]
+        myActivityInfoThree: "My goal is to leverage my skills to contribute to cutting-edge projects that make a meaningful impact. If you're seeking a front-end developer who thrives in dynamic environments and is dedicated to excellence, I'd love to connect and explore how I can add value to your team.",
     },
     Education: {
         EducationTitle: "Education and Work Experience",
@@ -243,6 +158,40 @@ export const myInfo = {
             }
         ]
     },
+    Skills: [
+        {
+            title: 'Frontend',
+            name: 'frontend',
+            knownSkills: [
+                'React.js',
+                'Vue.js',
+                'Javascript',
+                'Typescript',
+                'Web Component',
+                'HTML/CSS'
+            ]
+        },
+        {
+            title: 'Backend',
+            name: 'backend',
+            knownSkills: [
+                'Node.js',
+                'Express.js',
+                'MongoDB',
+                'MySql'
+            ]
+        },
+        {
+            title: 'Other',
+            name: 'other',
+            knownSkills: [
+                'Git',
+                'jenkins',
+                'AWS',
+                'REST APIs'
+            ]
+        }
+    ],
     Project: {
         ProjectHeading: "Projects",
         ProjectSubHeading: "My Projects",

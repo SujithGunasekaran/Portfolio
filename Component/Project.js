@@ -15,9 +15,6 @@ export default function MyProject() {
             </div>
             <div className="project-card-container">
                 <div className="row">
-                    <div className="col-md-12">
-                        <p className="project-skill-head-subheading">{Project.ProjectInfo}</p>
-                    </div>
                     {
                         Project.ProjectList.map((projectInfo, index) => (
                             <div className="col-md-4" key={index}>

@@ -50,7 +50,7 @@ export default function Header() {
             threshold: 0.3
         });
 
-        [document.querySelector('#home'), document.querySelector('#experience'), document.querySelector('#project'), document.querySelector('#blog')]
+        [document.querySelector('#home'), document.querySelector('#experience'), document.querySelector('#about'), document.querySelector('#project'), document.querySelector('#blog')]
             .forEach(section => {
                 sectionObserver.observe(section);
             })
