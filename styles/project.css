@@ -31,6 +31,7 @@
     margin-top: 20px;
     padding: 2rem 1.75rem;
     height: 95%;
+    border: 0.5px solid var(--card-border);
     background-color: var(--card-bg);
     border-radius: 0.5rem;
     transition: 0.4s all ease-in-out;
@@ -174,24 +175,12 @@
 }
 
 .project-card-more-website-btn:hover {
-    color: var(--highlight-text);
-    background-color: transparent;
     cursor: pointer;
+    color: var(--btn-color);
 }
 
 .project-card-more-website-btb:focus {
     outline: none;
-}
-
-.project-card-more-website-btn a {
-    display: inline-block;
-    color: var(--btn-color);
-    text-decoration: none;
-    transition: 0.5s all ease-in-out;
-}
-
-.project-card-more-website-btn a:hover {
-    color: var(--highlight-text);
 }
 
 .project-skill-head-subheading {

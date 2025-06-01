@@ -6,6 +6,7 @@
                 {
                     "EducationYear": "2020",
                     "EducationType": "College",
+                    "InstituteName": "Bannari Amman Institute Of Technology",
                     "EducationDetails": [
                         {
                             "InstituteName": "Bannari Amman Institute Of Technology",
@@ -17,6 +18,7 @@
                 {
                     "EducationYear": "2016",
                     "EducationType": "Higher Secondary",
+                    "InstituteName": "Srv Matriculation HR.secondary School",
                     "EducationDetails": [
                         {
                             "InstituteName": "Srv Matriculation HR.secondary School",
@@ -28,6 +30,7 @@
                 {
                     "EducationYear": "2014",
                     "EducationType": "Secondary School",
+                    "InstituteName": "Chinmaya Vidyalaya Matric School",
                     "EducationDetails": [
                         {
                             "InstituteName": "Chinmaya Vidyalaya Matric School",
@@ -44,16 +47,55 @@
             "Heading": "Work Experience",
             "WorkDetails": [
                 {
-                    "WorkingYear": "2022(May) - Present",
-                    "WorkType": "Senior Software Engineer - Frontend",
                     "WorkOfficeName": "Freshworks",
-                    "WorkDescription": "Worked on various projects along cross-functional collaboration with backend engineers and product designers. Created the “Meta Framework” POC, which enhance the developer efficiency and simplifying application development for the Freshworks products using the FDK. Led the UI development for the marketplace and developer portal, delivering the high-quality user interfaces. Enhanced in-product Gallery performance by optimising load times, Resulting in faster performance and an improved user experience"
+                    "WorkLogoName": "freshworks-logo",
+                    "WorkLogoPath": "freshworks-logo.svg",
+                    "WorkExperience": [
+                        {
+                            "WorkingYear": "2023(Oct) - Present",
+                            "WorkTitle": "Senior Software Engineer - Frontend",
+                            "WorkDescription": [
+                                "Designed and implemented a Review & Ratings feature for the Marketplace Gallery, Website, and Developer Portal, increasing app adoption and user engagement within the marketplace.",
+                                "Optimized the Marketplace Gallery performance, reducing page rendering time from 12s to 5s, resulting in a 58% faster load time, significantly improving user experience and retention rates.",
+                                "Led a PoC for 'Meta Framework' integration in Freshworks Developer Kit (FDK), enabling seamless framework support and out-of-the-box compatibility with third-party libraries and many more, enhancing the developer experience and reducing onboarding efforts.",
+                                "Actively contributed to the Freshworks developer community, assisting external developers with FDK app development, troubleshooting, and best practices, fostering stronger developer engagement and adoption."
+                            ]
+                        },
+                        {
+                            "WorkingYear": "2022(May) - 2023(Oct)",
+                            "WorkTitle": "Software Engineer - Frontend",
+                            "WorkDescription": [
+                                "Led the migration of the Marketplace Gallery from Vue 2 to Vue 3, improving performance, maintainability, and compatibility with modern tools.",
+                                "Designed and built 'App Referee,' an internal tool that streamlined app review processes by enabling reviewers to efficiently assess content, code, pricing, and compliance. Integrated into the Freshdesk product, it enhanced review accuracy and reduced turnaround time significantly.",
+                                "Conducted a PoC to migrate the unit test framework from Jest to Vitest for the Marketplace Gallery and website, resulting in faster test execution, improved developer experience, and better TypeScript support. Successfully boosted code coverage from 60% to 97%.",
+                                "Contributed to Freshworks Crayons, an open-source UI framework."
+                            ]
+                        }
+                    ]
                 },
                 {
-                    "WorkingYear": "2020(June) - 2022(May)",
-                    "WorkType": "Software Engineer",
-                    "WorkOfficeName": "Solartis Technology PVT",
-                    "WorkDescription": "Developed and managed complete Frontend part of large scale web application (Insurance Domain) for one of the pioneer customer. Used Reactjs as Frontend framework and react-redux as state management library for development. Build gateway services using express.js to interconnect uiux with microservices and serves result orchestration."
+                    "WorkOfficeName": "Solartis",
+                    "WorkLogoName": "",
+                    "WorkLogoPath": "",
+                    "WorkExperience": [
+                        {
+                            "WorkingYear": "2021(Aug) - 2022(May)",
+                            "WorkTitle": "Senior Software Engineer - Frontend",
+                            "WorkDescription": [
+                                "Continued working on the same project and became part of a team focused on building reusable components that could be easily plugged into the main application.",
+                                "Built and maintained reusable UI components such as tables, toast notifications, search bars, and more, ensuring consistency and ease of use across the application."
+                            ]
+                        },
+                        {
+                            "WorkingYear": "2020(June) - 2021(July)",
+                            "WorkTitle": "Associate Software Engineer",
+                            "WorkDescription": [
+                                "Started by fixing bugs and handling small tasks to get familiar with the project and codebase.",
+                                "Contributed to building the insurance product from scratch using React.js",
+                                "Took full ownership of the quote creation and update flow, implementing the end-to-end experience for generating and modifying insurance quotes."
+                            ]
+                        }
+                    ]
                 }
             ]
         }

@@ -1,19 +1,20 @@
 :root {
-    --header-active-bg: #191627;
+    --header-active-bg: rgb(14 16 24, 0.4);
     --header-active-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
-    --dark-first: #191627;
+    --dark-first: #0E1018;
     --dark-second: #29253d;
     --first-white: #FFFFFF;
     --btn-color: #FFFFFF;
     --second-white: #9A9AA6;
     --third-white: #BCBAC4;
     --text-black: black;
-    --card-bg: #211D35;
-    --highlight-text: #8c7ae9;
-    --highlight-border: #6E57E0;
-    --highlight-btn-bg: #6E57E0;
-    --highlight-bg: #6E57E0;
-    --highlight-icon: #6E57E0;
+    --card-bg: #141821;
+    --card-border: #37415133;
+    --highlight-text: #3B82F7;
+    --highlight-border: #3B82F7;
+    --highlight-btn-bg: #3B82F7;
+    --highlight-bg: #141821;
+    --highlight-icon: #3B82F7;
     --scroll-bar-bg: #757575;
 
     --inter-font: "Open Sans", sans-serif;
@@ -33,15 +34,16 @@
 }
 
 .main-info-css.white {
-    --header-active-bg: #ffffff;
-    --dark-first: white;
+    --header-active-bg: #FAFBFD;
+    --dark-first: #FAFBFD;
     --btn-color: #FFFFFF;
-    --dark-second: #bebbca;
+    --dark-second: #efefef;
     --first-white: #0e0d0d;
     --second-white: #545455;
-    --third-white: #252525;
-    --card-bg: #d6cff8;
-    --highlight-text: #5b41dd;
+    --third-white: #71717a;
+    --card-bg: #ededed;
+    --card-border: #dedede;
+    --highlight-text: #3372EE;
     --scroll-bar-bg: #e5e2e2;
 
     background-color: var(--dark-first);
