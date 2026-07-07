@@ -1,6 +1,7 @@
 .header-main {
     width: 100%;
     position: fixed;
+    z-index: 10;
     background-color: var(--header-active-bg);
     backdrop-filter: blur(25px);
     -webkit-backdrop-filter: blur(25px);

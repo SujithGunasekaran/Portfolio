@@ -26,18 +26,6 @@
                             "InstituteMark": "Mark : 84.4%"
                         }
                     ]
-                },
-                {
-                    "EducationYear": "2014",
-                    "EducationType": "Secondary School",
-                    "InstituteName": "Chinmaya Vidyalaya Matric School",
-                    "EducationDetails": [
-                        {
-                            "InstituteName": "Chinmaya Vidyalaya Matric School",
-                            "InstituteCourse": "StateBoard",
-                            "InstituteMark": "Mark : 86%"
-                        }
-                    ]
                 }
             ]
         }
@@ -52,23 +40,31 @@
                     "WorkLogoPath": "freshworks-logo.svg",
                     "WorkExperience": [
                         {
-                            "WorkingYear": "2023(Oct) - Present",
-                            "WorkTitle": "Senior Software Engineer - Frontend",
+                            "WorkingYear": "Jan 2026 - Present",
+                            "WorkTitle": "Lead Software Engineer - Frontend",
                             "WorkDescription": [
-                                "Designed and implemented a Review & Ratings feature for the Marketplace Gallery, Website, and Developer Portal, increasing app adoption and user engagement within the marketplace.",
-                                "Optimized the Marketplace Gallery performance, reducing page rendering time from 12s to 5s, resulting in a 58% faster load time, significantly improving user experience and retention rates.",
-                                "Led a PoC for 'Meta Framework' integration in Freshworks Developer Kit (FDK), enabling seamless framework support and out-of-the-box compatibility with third-party libraries and many more, enhancing the developer experience and reducing onboarding efforts.",
-                                "Actively contributed to the Freshworks developer community, assisting external developers with FDK app development, troubleshooting, and best practices, fostering stronger developer engagement and adoption."
+                                "Led a Nuxt.js SSG-to-SSR migration, improving build times by ~95% and Core Web Vitals by ~30%",
+                                "Introduced micro-frontend architecture and engineering standards, including AI-assisted development workflows, across the frontend team",
+                                "Owned the technical roadmap and mentored engineers while driving cross-functional delivery in a fast-paced SaaS environment"
                             ]
                         },
                         {
-                            "WorkingYear": "2022(May) - 2023(Oct)",
+                            "WorkingYear": "Oct 2023 - Dec 2025",
+                            "WorkTitle": "Senior Software Engineer - Frontend",
+                            "WorkDescription": [
+                                "Optimised Marketplace Gallery performance using React profiling and code splitting, reducing page render time from 12s to 5s (58% improvement)",
+                                "Designed and shipped the Review & Ratings feature across Marketplace Gallery, Website, and Developer Portal, increasing app adoption and engagement",
+                                "Led a PoC for Meta Framework integration in FDK, improving third-party library compatibility and developer experience"
+                            ]
+                        },
+                        {
+                            "WorkingYear": "May 2022 - Oct 2023",
                             "WorkTitle": "Software Engineer - Frontend",
                             "WorkDescription": [
-                                "Led the migration of the Marketplace Gallery from Vue 2 to Vue 3, improving performance, maintainability, and compatibility with modern tools.",
-                                "Designed and built 'App Referee,' an internal tool that streamlined app review processes by enabling reviewers to efficiently assess content, code, pricing, and compliance. Integrated into the Freshdesk product, it enhanced review accuracy and reduced turnaround time significantly.",
-                                "Conducted a PoC to migrate the unit test framework from Jest to Vitest for the Marketplace Gallery and website, resulting in faster test execution, improved developer experience, and better TypeScript support. Successfully boosted code coverage from 60% to 97%.",
-                                "Contributed to Freshworks Crayons, an open-source UI framework."
+                                "Contributed to the Marketplace Gallery migration from Vue 2 to Vue 3, improving performance and maintainability",
+                                "Designed and built 'App Referee,' an internal tool integrated into Freshdesk that streamlined app review workflows and reduced turnaround time",
+                                "Led a PoC to migrate from Jest to Vitest, improving test execution speed and boosting code coverage from 60% to 97%",
+                                "Contributed to Freshworks Crayons, an open-source UI framework"
                             ]
                         }
                     ]
@@ -79,15 +75,15 @@
                     "WorkLogoPath": "",
                     "WorkExperience": [
                         {
-                            "WorkingYear": "2021(Aug) - 2022(May)",
-                            "WorkTitle": "Senior Software Engineer - Frontend",
+                            "WorkingYear": "Aug 2021 - May 2022",
+                            "WorkTitle": "Software Engineer",
                             "WorkDescription": [
                                 "Continued working on the same project and became part of a team focused on building reusable components that could be easily plugged into the main application.",
                                 "Built and maintained reusable UI components such as tables, toast notifications, search bars, and more, ensuring consistency and ease of use across the application."
                             ]
                         },
                         {
-                            "WorkingYear": "2020(June) - 2021(July)",
+                            "WorkingYear": "Jun 2020 - Jul 2021",
                             "WorkTitle": "Associate Software Engineer",
                             "WorkDescription": [
                                 "Started by fixing bugs and handling small tasks to get familiar with the project and codebase.",

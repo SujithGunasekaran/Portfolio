@@ -99,19 +99,19 @@ export const myInfo = {
     },
     Home: {
         myName: "Sujith Gunasekaran",
-        myInfo: "Senior Software Engineer at Freshworks specializing in frontend development with expertise in React. Passionate about building exceptional digital experiences.",
+        myInfo: "Lead Software Engineer at Freshworks specializing in frontend development with React, Next.js, and Vue. Focused on building scalable, high-performance products.",
         myImage: "/assert/Home_my_image.svg",
         myActivityHeading: "About Me",
-        myActivityInfoOne: "Frontend Developer with 5 years of experience, I specialize in creating high-performance, accessible, and visually compelling web applications. My expertise lies in modern JavaScript frameworks and libraries, including React.js, Vue.js, and Next.js, paired with a deep understanding of JavaScript best practices. I bring both proven technical skills and a passion for continuous learning to the table..",
+        myActivityInfoOne: "Lead Software Engineer (Frontend) with 6+ years of experience building production-grade, scalable web applications using React.js, Next.js, Vue.js, and Nuxt.js. My focus has shifted from writing code to owning outcomes — setting technical direction, defining architecture, and making sure what we ship holds up in production.",
         myActivityInfoTwo: "What I bring to the team:",
         myActivityInfoTwoList: [
-            "A commitment to delivering high-quality, scalable, and user-centric solutions.",
-            "Exceptional communication skills to innovative ideas, align with cross-functional teams, and foster collaboration.",
-            "A focus on building applications prioritizing performance, accessibility, and maintainability.",
-            "I'm open to feedback and always looking to get better!",
-            "Supportive mentor who can guide and motivate the team."
+            "Ownership of frontend architecture, from technical decisions to long-term maintainability",
+            "Measurable performance improvements through CI/CD automation, testing strategy, and better tooling",
+            "Strong engineering standards around code quality, accessibility, and scalability across a team",
+            "Practical mentorship that helps engineers grow into more ownership",
+            "Cross-functional collaboration to align technical decisions with business goals"
         ],
-        myActivityInfoThree: "My goal is to leverage my skills to contribute to cutting-edge projects that make a meaningful impact. If you're seeking a front-end developer who thrives in dynamic environments and is dedicated to excellence, I'd love to connect and explore how I can add value to your team.",
+        myActivityInfoThree: "If you're working on something meaningful and value engineering leadership grounded in real execution, I'd love to connect.",
     },
     Education: {
         EducationTitle: "Education and Work Experience",
@@ -210,7 +210,7 @@ export const myInfo = {
                 ProjectName: "DevBlog",
                 ProjectDescription: "devBlog is an blog post web app, User can publish their blogs. user can able to like and save post for later purpose.",
                 ProjectLanguage: "Javascript, Next.js, Express.js, mongodb, Apollo-Graphql",
-                ProjectGitLink: "https://github.com/SujithGunasekaran",
+                ProjectGitLink: "https://github.com/SujithGunasekaran/devblog",
                 ProjectLink: "No",
                 ProjectLinkBtnDisplayName: "View Website"
             },
@@ -218,31 +218,31 @@ export const myInfo = {
                 ProjectName: "React E-commerce",
                 ProjectDescription: "This is a comprehensive e-commerce application built with React, providing a seamless shopping experience for users.",
                 ProjectLanguage: "Javascript, React.js, Redux, dummyjson",
-                ProjectGitLink: "https://github.com/SujithGunasekaran",
+                ProjectGitLink: "https://github.com/SujithGunasekaran/react-ecommerce",
                 ProjectLink: "https://react-ecommerce-sable.vercel.app/",
                 ProjectLinkBtnDisplayName: "View Website"
             },
             {
-                ProjectName: "YouTube Clone",
-                ProjectDescription: "YouTube. This is my video corner website, I have build Youtube clone in React.js with the help of 'Youtube API V3'.",
-                ProjectLanguage: "Javascript, React.js",
-                ProjectGitLink: "https://github.com/SujithGunasekaran",
-                ProjectLink: "No",
+                ProjectName: "Lazy Load Image",
+                ProjectDescription: "A lightweight, framework-agnostic lazy loading image component built with Lit Element. Load images only when they're visible to improve page performance and user experience.",
+                ProjectLanguage: "lit, Typescript, WebComponent",
+                ProjectGitLink: "https://github.com/SujithGunasekaran/lazy-load-image",
+                ProjectLink: "https://www.npmjs.com/package/lazy-load-image-lit",
                 ProjectLinkBtnDisplayName: "View Website"
             },
             {
-                ProjectName: "React Components",
-                ProjectDescription: "Collections of react components, where user can download it has a npm packages and can be used in our projects.",
+                ProjectName: "Frontend Mini Challenges",
+                ProjectDescription: "A nested checkbox component with parent-child selection and automatic indeterminate state syncing, ideal for tree views and hierarchical lists.",
                 ProjectLanguage: "Javascript, React.js",
-                ProjectGitLink: "https://github.com/SujithGunasekaran",
-                ProjectLink: "No",
+                ProjectGitLink: "https://github.com/SujithGunasekaran/frontend-mini-challenges",
+                ProjectLink: "https://sadanandpai.github.io/frontend-mini-challenges/react/#/nested-checkbox",
                 ProjectLinkBtnDisplayName: "View Website"
             },
             {
                 ProjectName: "React Gif Search",
                 ProjectDescription: "An interactive React GIF search app that lets users explore trending, random, or specific GIFs with features to download, play, or pause animations.",
                 ProjectLanguage: "Typescript, React.js, Gify",
-                ProjectGitLink: "https://github.com/SujithGunasekaran",
+                ProjectGitLink: "https://github.com/SujithGunasekaran/React-Gify",
                 ProjectLink: "https://react-gify.vercel.app/",
                 ProjectLinkBtnDisplayName: "View Website"
             }
