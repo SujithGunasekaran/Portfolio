@@ -1,0 +1,14 @@
+{
+  "name": "Sujith Gunasekaran",
+  "short_name": "Sujith",
+  "description": "Lead Software Engineer (Frontend). Portfolio, experience, projects and writing.",
+  "start_url": "/",
+  "display": "browser",
+  "theme_color": "#F3F0EA",
+  "background_color": "#0B0E14",
+  "icons": [
+    { "src": "/assets/favicon_io/desktop_icon.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/favicon_io/mobile_icon.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/assets/favicon_io/maskable_icon.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

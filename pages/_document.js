@@ -1,37 +1,29 @@
 import { Html, Head, Main, NextScript } from 'next/document';
 
+const THEME_SCRIPT = `
+try {
+    var saved = localStorage.getItem('theme');
+    var theme = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.dataset.theme = theme;
+    document.documentElement.dataset.js = '1';
+} catch (e) {}
+`;
+
 export default function Document() {
     return (
-        <Html lang='en'>
+        <Html lang="en">
             <Head>
                 <meta charSet="utf-8" />
-                <title>Sujith Gunasekaran</title>
-                <meta name="title" content="Sujith Gunasekaran" />
-                <meta name="description" content="Personal website" />
-                <meta name="keywords" content="Sujith, SujithGunasekaran, SujithGunasekaran vercel, Gunasekaran, personal website" />
-                <link rel="shortcut icon" href="/image/favicon.ico" />
-                <link rel="apple-touch-icon" href="/image/favicon.ico" />
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="http://sujithgunasekaran.vercel.app/" />
-                <meta property="og:title" content="Sujith Gunasekaran" />
-                <meta property="og:description" content="Personal Website" />
-                <meta property="og:image" content="" />
-
-                <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="http://sujithgunasekaran.vercel.app/" />
-                <meta property="twitter:title" content="Sujith Gunasekaran" />
-                <meta property="twitter:description" content="Personal Website" />
-                <meta property="twitter:image" content="" />
-
-                <link rel="preconnect" href="https://cdn.jsdelivr.net" />
-                <link rel="preconnect" href="fonts.googleapis.com" />
-
-                {/* Bootstrap CSS */}
-                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossOrigin="anonymous"></link>
-
-                {/* Bootstrap JS */}
-                <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossOrigin="anonymous"></script>
-
+                <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+                <meta name="theme-color" content="#F3F0EA" media="(prefers-color-scheme: light)" />
+                <meta name="theme-color" content="#0B0E14" media="(prefers-color-scheme: dark)" />
+                <link rel="icon" href="/image/icon.svg" type="image/svg+xml" />
+                <link rel="icon" href="/assets/favicon_io/favicon_32.png" sizes="32x32" type="image/png" />
+                <link rel="icon" href="/assets/favicon_io/favicon_16.png" sizes="16x16" type="image/png" />
+                <link rel="shortcut icon" href="/favicon.ico" />
+                <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple_icon.png" />
+                <link rel="manifest" href="/site.webmanifest" />
+                <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
             </Head>
             <body>
                 <Main />

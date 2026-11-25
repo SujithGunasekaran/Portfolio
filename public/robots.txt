@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sujithgunasekaran.vercel.app/sitemap.xml
